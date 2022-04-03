@@ -1,0 +1,221 @@
+#stacks_in_84>.s3_row {
+	margin: 0 -5px;
+}
+
+#stacks_in_84>.s3_row>.s3_column_left {
+	width: 20.00%;
+}
+
+#stacks_in_84>.s3_row>.s3_column_center {
+	width: 60.000000%;
+}
+
+#stacks_in_84>.s3_row>.s3_column_right {
+	width: 20.00%;
+}
+
+#stacks_in_84>.s3_row>.s3_column {
+	padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+	#stacks_in_84>.s3_row  {
+		margin: -5px 0;
+	}
+	#stacks_in_84>.s3_row>.s3_column {
+		padding: 5px 0;
+		width:100%;
+	}
+
+
+}
+
+
+
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_88 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_88 {
+		display: none !important;
+	}
+}
+/* Start Responsive Shim stack CSS code */.stacks_in_33shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
+#stacks_out_80 {
+	width: 19%;
+}
+
+.spacerStack {
+	height: 10.00px;
+}
+
+#spacerStackstacks_in_90 {
+	height: 10.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_90 {
+		display: none !important;
+	}
+}
+#stacks_in_75>.s3_row {
+	margin: 0 -10px;
+}
+
+#stacks_in_75>.s3_row>.s3_column_left {
+	width: 50.00%;
+}
+
+#stacks_in_75>.s3_row>.s3_column_right {
+	width: 50.000000%;
+}
+
+
+
+
+#stacks_in_75>.s3_row>.s3_column {
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+	#stacks_in_75>.s3_row  {
+		margin: -10px 0;
+	}
+	#stacks_in_75>.s3_row>.s3_column {
+		padding: 10px 0;
+		width:100%;
+	}
+
+
+}
+
+
+
+
+
+
+#stacks_in_75 {
+	margin:  5px;
+	padding:  5px;
+}
+
+#stacks_out_28 {
+	width: 800px;
+}
+
+#stacks_out_78 {
+	width: 800px;
+}
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_89 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_89 {
+		display: none !important;
+	}
+}

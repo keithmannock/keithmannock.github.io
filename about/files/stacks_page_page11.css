@@ -1,0 +1,46 @@
+
+#stacks_in_12 .pullquote {
+font-size:1.25em;
+display:block;
+
+padding:2.5em 0.5em;
+
+font-style:italic;
+}
+
+
+#stacks_in_12 .pullquote:before, #stacks_in_12 .pullquote:after {
+display:block;
+position:relative;
+font-size:100px;
+line-height:0px;
+overflow:display;
+text-align:left;
+font-style:normal;
+opacity:0.25;
+}
+	
+#stacks_in_12 .pullquote:before {
+content:"\201C";
+top:5px;
+left:-5px;
+}
+	
+#stacks_in_12 .pullquote:after {
+content:"\201D";
+bottom:-40px;
+right:-5px;
+text-align:right;
+}
+
+
+#stacks_in_12 .pullquote-source {
+font-size:0.65em;
+text-align:right;
+font-style:normal;
+}
+
+#stacks_in_12 .pullquote-source:before {
+	content:"\2014\200A";
+	font-style:normal;
+}

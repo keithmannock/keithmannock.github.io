@@ -1,0 +1,3 @@
+
+elixir.lockedNavigation={};elixir.lockedNavigation=(function(){var jQuery=elixir.jQuery;var $=jQuery;var $elixir=jQuery.noConflict();function lockedNavigationFunction(){$('nav#site-navigation').css({'position':'fixed'});var w=$(window);w.scroll(function(){if(w.scrollTop()>100){$('nav#site-navigation').addClass('scrolled_background');}else{$('nav#site-navigation').removeClass('scrolled_background');}});}
+$(document).ready(function(){lockedNavigationFunction();});})(elixir.lockedNavigation);

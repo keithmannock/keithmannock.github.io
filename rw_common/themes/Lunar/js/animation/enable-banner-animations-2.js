@@ -1,0 +1,3 @@
+
+elixir.bannerAnimations={};elixir.bannerAnimations=(function(){var jQuery=elixir.jQuery;var $=jQuery;var $elixir=jQuery.noConflict();function bannerAnimationsFunction(){TweenMax.to("#site-logo",1.2,{delay:0.25,opacity:1,startAt:{y:-100},y:0,ease:Power2.easeOut});TweenMax.to(".site-title",1.5,{delay:0.25,opacity:1,startAt:{y:100},y:0,ease:Power2.easeOut});TweenMax.to(".site-slogan",1.2,{delay:0.75,opacity:1,startAt:{y:50},y:0,ease:Power2.easeOut});TweenMax.staggerFrom(".myBadge",0.65,{delay:1,opacity:0,y:50,ease:Bounce.easeOut},0.4);TweenMax.to("#extraContent1",1.5,{delay:1.33,opacity:1,ease:Power2.easeOut});}
+$(document).ready(function(){bannerAnimationsFunction();});})(elixir.bannerAnimations);
