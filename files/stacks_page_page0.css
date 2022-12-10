@@ -1,3 +1,165 @@
+#stacks_in_113>.s3_row {
+	margin: 0 -10px;
+}
+
+#stacks_in_113>.s3_row>.s3_column_left {
+	width: 20.00%;
+}
+
+#stacks_in_113>.s3_row>.s3_column_center {
+	width: 60.000000%;
+}
+
+#stacks_in_113>.s3_row>.s3_column_right {
+	width: 20.00%;
+}
+
+#stacks_in_113>.s3_row>.s3_column {
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+	#stacks_in_113>.s3_row  {
+		margin: -10px 0;
+	}
+	#stacks_in_113>.s3_row>.s3_column {
+		padding: 10px 0;
+		width:100%;
+	}
+
+
+}
+
+
+
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_117 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_117 {
+		display: none !important;
+	}
+}
+
+#stacks_in_108 .pullquote {
+font-size:1.25em;
+display:block;
+
+padding:2.5em 0.5em;
+
+font-style:italic;
+}
+
+
+#stacks_in_108 .pullquote:before, #stacks_in_108 .pullquote:after {
+display:block;
+position:relative;
+font-size:100px;
+line-height:0px;
+overflow:display;
+text-align:left;
+font-style:normal;
+opacity:0.25;
+}
+	
+#stacks_in_108 .pullquote:before {
+content:"\201C";
+top:5px;
+left:-5px;
+}
+	
+#stacks_in_108 .pullquote:after {
+content:"\201D";
+bottom:-40px;
+right:-5px;
+text-align:right;
+}
+
+
+#stacks_in_108 .pullquote-source {
+font-size:0.65em;
+text-align:right;
+font-style:normal;
+}
+
+#stacks_in_108 .pullquote-source:before {
+	content:"\2014\200A";
+	font-style:normal;
+}
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_118 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_118 {
+		display: none !important;
+	}
+}
 #stacks_in_84>.s3_row {
 	margin: 0 -5px;
 }
@@ -219,3 +381,13 @@
 		display: none !important;
 	}
 }
+/* Start Responsive Shim stack CSS code */.stacks_in_95shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
+/* START QUARENTINE CSS */
+
+
+
+
+
+     
+/* END QUARENTINE CSS */      
+/* Start dooMap 2 stack each CSS code */#stacks_in_100map img {    max-width: none !important; }#stacks_in_100 .gm-style-iw{	color: #444 !important;}.gmnoprint img {    max-width: none !important; }.stacks_in_100error{	position: relative;	background: #ffeaea;	padding: 0;	margin: 0;}.dooMapErrorColour{	color: red;}#stacks_in_100map{	height: 300px;	}@media all and (max-width: 1024px) {	#stacks_in_100map{		height: 199.800003px;	}}@media all and (max-width: 480px) {	#stacks_in_100map{		height: 150.000000px;	}}.dooMapClearer{	clear: both;	height: 0;	margin: 0;	padding: 0;}#stacks_in_100directions{	position: relative;	background: #fff;	display: none;	border: 1px solid #ccc;	border-radius: 2px;	padding: 10px;	color: #444;}.stacks_in_100directionsHeader{	display: inline-block !important;	font-size: 20px;	line-height: 22px;	font-weight: bold;	margin-right: 40px;}.dooDirectionsButton{	background: #fff;	border: 1px solid #ccc;	padding: 0 10px 0 10px;	font-size: 14px;	line-height: 22px;	border-radius: 2px;	cursor: pointer;	margin: 0;	color: #444;}.stacks_in_100cancel{	position: absolute;	top: 10px;	right: 10px;	font-size: 24px !important;	padding: 0 0 0 6px;	margin: 0;	border: none !important;}.directions_location_wrapper{	background: #ddd;	padding: 6px 10px 6px 10px;	border: 1px solid #ccc;	border-radius: 2px;	margin-top: 10px;	font-size: 14px;	line-height: 22px;}.directions_location_wrapper:hover{	background: #f4f4f4;}.dooDirectionsShow{	display: inline-block;}.dooDirectionsResultsWrapper{	display: none;	background: #fff;	padding: 10px;	border: 1px solid #ccc;	border-radius: 2px;	margin-top: 10px;}.dooMapInstruction{	border-bottom: 1px solid #ccc;	padding-bottom: 4px;}.dooMapInstructionDistance{	padding-top: 4px;	font-weight: bold;}.dooDirectionsSharingWrapper{	display: none;}.stacks_in_100print, .stacks_in_100email, .stacks_in_100google{	position: relative;	display: inline-block;	margin-top: 8px !important;	margin-right: 3px !important;}	#stacks_in_100 .dooMapLocation{		display: none;	}/* End dooMap 2 stack each CSS code *//* Start dooMap2location stack each CSS code *//* End dooMap2location stack each CSS code */

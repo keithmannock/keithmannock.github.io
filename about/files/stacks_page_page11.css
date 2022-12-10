@@ -43,4 +43,72 @@ font-style:normal;
 #stacks_in_12 .pullquote-source:before {
 	content:"\2014\200A";
 	font-style:normal;
+}#stacks_in_15.image-cover {
+  overflow: hidden;
 }
+#stacks_in_15.image-cover > .image-adjustments {
+  filter: ;
+  opacity: calc(100% - 0%);
+  
+}
+#stacks_in_15.image-cover > .image-adjustments > .image-drop-shadow {
+  
+}
+#stacks_in_15.image-cover > .image-adjustments > .image-drop-shadow > div {
+  
+}
+
+
+#stacks_in_15 > .image-adjustments > .image-white img {
+  transform:
+  rotate(0deg)
+  scaleX(1.000000)
+  scaleY(1.000000)
+  ;
+}
+#stacks_in_15 > .image-adjustments > .image-white, #stacks_in_15 > .image-adjustments > .image-drop-shadow > div {
+  clip-path: inset(0px round 0px);
+}
+
+
+
+
+
+
+
+
+
+#stacks_in_15 > .image-adjustments > .image-white .image-under img {
+  filter:  invert(1)  brightness(1.00) contrast(1.00) saturate(1.00)  ;
+}
+#stacks_in_15 > .image-adjustments > .image-white .image-over img {
+  filter:  brightness(1.00) contrast(1.00) saturate(1.00)   ;
+}
+#stacks_in_15 > .image-adjustments > .image-white .image-gray {
+  background-color: #FEB000;
+  opacity: 27%;
+}
+#stacks_in_15 > .image-adjustments > .image-white .image-shadows {
+  background-color:  #000;
+  opacity: 0%;
+}
+#stacks_in_15 > .image-adjustments > .image-white .image-highlights {
+  background-color: #FFFFFF;
+  opacity: 0%;
+  mix-blend-mode: overlay;
+}
+#stacks_in_15 > .image-adjustments > .image-white .image-noise {
+  filter: grayscale(1) brightness(1.2) contrast(1.5) url(#noisestacks_in_15);
+  opacity: 0%;
+}
+#stacks_in_15 > .image-adjustments > .image-white .image-black {
+  background-color: #000000;
+}
+#stacks_in_15.image-cover > .image-adjustments > .image-white {
+  background-color: #FFFFFF;
+}
+
+
+/*  */
+/*  */
+/* Start Responsive Shim stack CSS code */.stacks_in_17shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
