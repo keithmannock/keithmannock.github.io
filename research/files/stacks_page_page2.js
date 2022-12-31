@@ -40,125 +40,38 @@ $(window).load(function() {
     }
 });
 return stack;})(stacks.com_stacks4stacks_stacks_switcher2);
-// Javascript for stacks_in_73// ---------------------------------------------------------------------
+// Javascript for stacks_in_107// ---------------------------------------------------------------------
 // Each stack has its own object with its own namespace.  The name of// that object is the same as the stack's id.
-stacks.stacks_in_73 = {};
+stacks.stacks_in_107 = {};
 // A closure is defined and assigned to the stack's object.  The object// is also passed in as 'stack' which gives you a shorthand for referring// to this object from elsewhere.
-stacks.stacks_in_73 = (function(stack) {
+stacks.stacks_in_107 = (function(stack) {
 	// When jQuery is used it will be available as $ and jQuery but only	// inside the closure.
-var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
-
-	// Variables
-	var transitionspeed = 500;
-	var startingAcccordion = 100;
-	var startingAcccordionActual = (startingAcccordion-1);
-	var startingTab = 1;
-	var startingTabActual = (startingTab-1);
-
-	// Loop through our Switcher and give each accordion toggle a unique href value
-	$('#accordionInterfacestacks_in_73 .accordion-toggle').attr('href', function(i) {
-		return '#switcher1'+(i+1);
-	});
-	
-	// Loop through our Switcher and give each accordion toggle a unique class value
-	$('#accordionInterfacestacks_in_73 .accordion-toggle').attr('data-trigger', function(i) {
-		return '#switcher1'+(i+1);
-	});
-	
-	// Loop through our Switcher and give each accordion content pane a unique ID
-	$('#accordionInterfacestacks_in_73 .accordion-content').attr('id', function(i) {
-		return 'switcher1'+(i+1);
-	});
-	
-	// Loop through our Switcher and give each tab toggle a unique href value
-	$('#tabbedInterfacestacks_in_73 .accordion-toggle').attr('href', function(i) {
-		return '#tab-switcher1'+(i+1);
-	});
-	
-	// Loop through our Switcher and give each content pane a unique ID
-	$('#tabbedInterfacestacks_in_73 .accordion-content').attr('id', function(i) {
-		return 'tab-switcher1'+(i+1);
-	});
-	
-	// Append opened and closed icons to the accordion heading toggles	
-	$( "#accordionInterfacestacks_in_73 > li > .accordion-toggle" ).each(function() {
-		$(this).append('<span class="closedIcon"><i class="fa fa-caret-right"></i></span><span class="openedIcon"><i class="fa fa-caret-down"></i></span>');
-	});
-	
-	// Construct tabed interface, cloned from accordion interface
-	$("#accordionInterfacestacks_in_73 .accordion-toggle").clone().appendTo("ul#switcherTabsstacks_in_73");
-	$("#accordionInterfacestacks_in_73 .accordion-content").clone().prependTo("#tabPanesstacks_in_73");
-	$("ul#switcherTabsstacks_in_73 .accordion-toggle").wrap("<li class='switcherTab' />");
-	
-	// Intiate accordion
-	$('#accordionInterfacestacks_in_73').accordion({
-		animate: 500,
-		active: startingAcccordionActual,
-		heightStyle: "content",
-		collapsible: true,
-		
-		// Stop audio and video
-		beforeActivate: function( event, ui ) {
-			$("#switcherstacks_in_73 video").each(function () { this.pause() });
-			$("#switcherstacks_in_73 audio").each(function () { this.pause() });
-			$("#switcherstacks_in_73 iframe").each(function() { 
-			        var src= $(this).attr('src');
-			        $(this).attr('src',src);  
-			});
-		},
-		activate: function( event, ui ) {
-			
-		}
-	});
-	
-	// Initiate tabs
-	$('#tabbedInterfacestacks_in_73').tabs({
-		animate: 500,
-		
-		// If starting tab is NOT equal to zero, start at the defined tab
-		active: startingTabActual,
-		
-		
-		collapsible: false,
-		heightStyle: "content",
-		
-		hide: 'fade',
-		show: 'fade',
-		
-		
-		beforeActivate: function( event, ui ) {
-			$("#switcherstacks_in_73 video").each(function () { this.pause() });
-			$("#switcherstacks_in_73 audio").each(function () { this.pause() });
-			$("#switcherstacks_in_73 iframe").each(function() { 
-			        var src= $(this).attr('src');
-			        $(this).attr('src',src);  
-			});
-		},
-		activate: function( event, ui ) {
-			
-		}
-	});
-	
-	// Trigger tabs and accordions with a custom button
-	var jQueryTabs = $('#tabbedInterfacestacks_in_73');
-	$('[data-switcher1]').click(function(){
-		var tabId = $(this).data('switcher1')-1;
-		jQueryTabs.tabs('option', 'active', tabId);
-	});
-	
-	var jQueryAccordion = $('#accordionInterfacestacks_in_73');
-	$('[data-switcher1]').click(function(){
-		var tabId = $(this).data('switcher1')-1;
-		jQueryAccordion.accordion('option', 'active', tabId);
-	});
-	
-	
-	
-	// Fade the Switcher into view when the page is ready
-	$("#switcherstacks_in_73").delay(transitionspeed).slideDown(transitionspeed);
-	
-});
-return stack;})(stacks.stacks_in_73);
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_107);
+// Javascript for stacks_in_114// ---------------------------------------------------------------------
+// Each stack has its own object with its own namespace.  The name of// that object is the same as the stack's id.
+stacks.stacks_in_114 = {};
+// A closure is defined and assigned to the stack's object.  The object// is also passed in as 'stack' which gives you a shorthand for referring// to this object from elsewhere.
+stacks.stacks_in_114 = (function(stack) {
+	// When jQuery is used it will be available as $ and jQuery but only	// inside the closure.
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_114);
+// Javascript for stacks_in_115// ---------------------------------------------------------------------
+// Each stack has its own object with its own namespace.  The name of// that object is the same as the stack's id.
+stacks.stacks_in_115 = {};
+// A closure is defined and assigned to the stack's object.  The object// is also passed in as 'stack' which gives you a shorthand for referring// to this object from elsewhere.
+stacks.stacks_in_115 = (function(stack) {
+	// When jQuery is used it will be available as $ and jQuery but only	// inside the closure.
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_115);
+// Javascript for stacks_in_106// ---------------------------------------------------------------------
+// Each stack has its own object with its own namespace.  The name of// that object is the same as the stack's id.
+stacks.stacks_in_106 = {};
+// A closure is defined and assigned to the stack's object.  The object// is also passed in as 'stack' which gives you a shorthand for referring// to this object from elsewhere.
+stacks.stacks_in_106 = (function(stack) {
+	// When jQuery is used it will be available as $ and jQuery but only	// inside the closure.
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_106);
 // Javascript for stacks_in_40// ---------------------------------------------------------------------
 // Each stack has its own object with its own namespace.  The name of// that object is the same as the stack's id.
 stacks.stacks_in_40 = {};
