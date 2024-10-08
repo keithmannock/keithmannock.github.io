@@ -102,67 +102,6 @@
 	display: block;
 }
 
-
-/* START QUARENTINE CSS */
-
-
-
-
-
-     
-/* END QUARENTINE CSS */      
-/*
- * Simple Divider Pro
- * AUTHOR: JEREMY HAWES
- * URL: http://www.onelittledesigner.com/rapdidweaver-stack/simple-divider/
- * Support: support@1littledesigner.com
- * Version 1.4.2
- */
-
-#simpleDivider_stacks_in_21 {
-	width: 100%;
-	clear: both;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#simpleDivider_stacks_in_21 .theDivider1,
-#simpleDivider_stacks_in_21 .theDivider2 {
-	width: inherit;
-}
-#simpleDivider_stacks_in_21 .theDivider1 {
-	height: 0px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-}
-#simpleDivider_stacks_in_21.transparentOff .theDivider1 {
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-color: #CCCCCC;
-	border-bottom-color: #FFFFFF;
-}
-#simpleDivider_stacks_in_21.transparentOn .theDivider1 {
-	border-width: 0;
-	border-color: none;
-}
-#simpleDivider_stacks_in_21 .theDivider2 {
-	height: 4px;
-}
-#simpleDivider_stacks_in_21.transparentOff .theDivider2 {
-	background-color: #E0E0E0;
-}
-#simpleDivider_stacks_in_21.transparentOn .theDivider2 {
-	background-color: transparent;
-}
-#simpleDivider_stacks_in_21.bgImageOn .theDivider2 {
-	background: transparent url() repeat;
-	overflow: visible;
-	border-width: 0;
-	border-color: none;
-}
-#simpleDivider_stacks_in_21.bgImageOn .theDivider1 img {
-	display: block;
-}
-
 #stacks_in_8>.s3_row {
 	margin: 0 -10px;
 }

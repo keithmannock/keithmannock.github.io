@@ -191,120 +191,7 @@ font-style:normal;
 #stacks_out_78 {
 	width: 800px;
 }
-/* -- Start Buttonpress2 Each css Template -- */
-
-.stacks_in_477buttonPressWrapper{
-	position: relative !important;
-}
-
-#stacks_in_477 a, #stacks_in_477 a:hover, #stacks_in_477 a:visited, #stacks_in_477 a:active{
-	text-decoration: none !important;
-}
-
-/* -- TYPE BASE STYLES -- */
-.stacks_in_477button{
-	position: relative !important;
-	display: inline-block !important;
-	
-	padding: 6px 12px 6px 12px !important;
-	margin: 0 !important;
-	font-size: 14px !important;
-	font-weight: normal !important;
-	line-height: 18px !important;
-	text-align: center !important;
-	vertical-align: middle !important;
-	-ms-touch-action: manipulation !important;
-	touch-action: manipulation !important;
-	cursor: pointer !important;
-	-webkit-user-select: none !important;
-	-moz-user-select: none !important;
-	-ms-user-select: none !important;
-	user-select: none !important;
-	background-image: none !important;
-	border: 1px solid transparent !important;
-	border-radius: 4px !important;
-	color: #FFFFFF !important;
-	background-color: #3D2246 !important;
-	border-color: #331C3B !important;
-	box-sizing: border-box !important;
-}
-
-.stacks_in_477button:hover{
-	color: #FFFFFF !important;
-	background-color: #773D90 !important;
-	border-color: #65337A !important;
-}
-
-#stacks_in_477 a, #stacks_in_477 a:visited, #stacks_in_477 a:active{
-	color: #FFFFFF !important;
-}
-
-#stacks_in_477 a:hover{
-	color: #FFFFFF !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.stacks_in_477buttonPressWrapper *{
-	
-	
-}
-
-
-/* -- BUTTON ALIGNMENT -- */
-.stacks_in_477buttonPressWrapper{
-	position: relative !important;
-	text-align: center !important;
-}
-
-@media only screen and (max-width: 768px) {
-	.stacks_in_477buttonPressWrapper{
-		text-align: center !important;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.stacks_in_477buttonPressWrapper{
-		text-align: center !important;
-	}
-}
-
-/* -- End Buttonpress2 Each css Template -- *//* Start Responsive Shim stack CSS code */.stacks_in_95shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Font style applied when the page has finished loading */
+/* Start Responsive Shim stack CSS code */.stacks_in_95shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Font style applied when the page has finished loading */
 
 #ExtraContentPlusstacks_in_464 #myExtraContent2,
 #ExtraContentPlusstacks_in_464 #fs {
