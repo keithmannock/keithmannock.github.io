@@ -90,6 +90,7 @@ font-style:normal;
 
 #stacks_out_80 {
 	width: 19%;
+	margin-left:0;
 }
 
 .spacerStack {
@@ -191,14 +192,7 @@ font-style:normal;
 #stacks_out_78 {
 	width: 800px;
 }
-/* Start Responsive Shim stack CSS code */.stacks_in_95shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Font style applied when the page has finished loading */
-
-#ExtraContentPlusstacks_in_464 #myExtraContent2,
-#ExtraContentPlusstacks_in_464 #fs {
-	display: none;
-}
-
-#stacks_in_478>.s3_row {
+/* Start Responsive Shim stack CSS code */.stacks_in_95shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */#stacks_in_478>.s3_row {
 	margin: 0 -10px;
 }
 
