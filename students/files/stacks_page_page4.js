@@ -16,6 +16,10 @@ $(window).load(function() {
     }
 });
 return stack;})(stacks.com_stacks4stacks_stacks_switcher2);
+stacks.stacks_in_694 = {};
+stacks.stacks_in_694 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_694);
 stacks.stacks_in_675 = {};
 stacks.stacks_in_675 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
