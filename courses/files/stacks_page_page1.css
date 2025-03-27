@@ -1,4 +1,4 @@
-/* Start Responsive Shim stack CSS code */.stacks_in_28shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//*
+/* Start Responsive Shim stack CSS code */.stacks_in_28shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Start Responsive Shim stack CSS code */.stacks_in_29shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//*
  * Simple Divider Pro
  * AUTHOR: JEREMY HAWES
  * URL: http://www.onelittledesigner.com/rapdidweaver-stack/simple-divider/
@@ -50,6 +50,39 @@
 	display: block;
 }
 
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_30 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_30 {
+		display: none !important;
+	}
+}
 /*
  * Simple Divider Pro
  * AUTHOR: JEREMY HAWES
@@ -102,6 +135,39 @@
 	display: block;
 }
 
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_31 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_31 {
+		display: none !important;
+	}
+}
 #stacks_in_8>.s3_row {
 	margin: 0 -10px;
 }

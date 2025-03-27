@@ -2,20 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://keithmannock.github.io/index.html</loc>
+		<lastmod>2025-03-27</lastmod>
 	</url>
 	<url>
 		<loc>https://keithmannock.github.io/courses/index.html</loc>
+		<lastmod>2025-03-27</lastmod>
 	</url>
 	<url>
 		<loc>https://keithmannock.github.io/research/index.html</loc>
+		<lastmod>2025-03-27</lastmod>
 	</url>
 	<url>
 		<loc>https://keithmannock.github.io/students/index.html</loc>
+		<lastmod>2025-03-27</lastmod>
 	</url>
 	<url>
 		<loc>https://keithmannock.github.io/resources/index.html</loc>
 	</url>
 	<url>
 		<loc>https://keithmannock.github.io/about/index.html</loc>
+		<lastmod>2025-03-27</lastmod>
 	</url>
 </urlset>
