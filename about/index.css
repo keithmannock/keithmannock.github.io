@@ -2812,3 +2812,7 @@
 @media (min-width: 1024px){.container{max-width:1024px}}[data-rwx-droparea] {
     width: auto !important;
 }
+/* [data-rwx-droparea] {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+} */
