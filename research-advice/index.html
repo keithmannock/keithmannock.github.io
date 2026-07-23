@@ -1,0 +1,881 @@
+<!doctype html>
+<html class="scroll-smooth" lang="" dir="">
+ <head> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=806512462"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-focus.js?rwcache=806512462"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=806512462"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-ui.js?rwcache=806512462"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/smoothscroll.min.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/gsap.min.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/ScrollTrigger.min.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/gsap-effects.js?rwcache=806512462"></script> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
+  <meta name="viewport" content="width=device-width" /> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <link rel="canonical" href="https://keithmannock.github.io/research-advice/" /> 
+  <meta name="referrer" content="same-origin" /> 
+  <meta name="robots" content="index, follow" /> 
+  <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16" /> 
+  <link rel="apple-touch-icon" type="image/png" href="../resources/apple-touch-icon-180x180.png" sizes="180x180" /> 
+  <meta property="og:type" content="website" /> 
+  <meta property="og:site_name" content="Keith Leonard Mannock" /> 
+  <meta property="og:title" content="Research Copy" /> 
+  <meta property="og:url" content="https://keithmannock.github.io/research-advice/" /> 
+  <title>Research Copy</title> 
+  <link href="index.css?rwcache=806512462" media="all" rel="stylesheet" type="text/css" /> 
+  <script src="../rw/elements/com.realmac.corepack/mouseTransforms3d.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/effectsTransforms.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/modal.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/alpine-exit-intent.js?rwcache=806512462"></script> 
+  <script src="../rw/elements/com.realmac.corepack/image-lightbox.js?rwcache=806512462"></script> 
+  <style lang="css">
+    /* Required for alpine.js x-cloak directive to work */
+    [x-cloak] {
+        display: none !important;
+    }
+
+    [data-rwx-droparea] {
+        /* width: 100%; */
+        min-width: 60px !important;
+        /* height: 100%; */
+    }
+
+    /* For Webkit-based browsers (Chrome, Safari and Opera) */
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* For IE, Edge and Firefox */
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+</style> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=806512462" /> 
+  <style>
+    .swiper-wrapper {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .swiper-slide {
+        height: auto;
+    }
+
+    .swiper-slide > * > * {
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        isolation: isolate;
+    }
+
+    /* Custom pagination bullets - no Swiper styling, just Tailwind classes */
+    .content-slider-bullet {
+        display: inline-block;
+    }
+    /* Hide Swiper's default navigation button icons since we use custom SVGs */
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        display: none;
+    }
+    /* Override Swiper's SVG sizing so our custom icons display correctly */
+    .swiper-button-prev svg,
+    .swiper-button-next svg {
+        width: auto;
+        height: auto;
+    }
+</style> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=806512462" /> 
+ </head> 
+ <body class="bg-surface-50 dark:bg-surface-950"> 
+  <div x-data="navigationStandard('mobile-menu-rw2550F1BF_EE20_46DD_BDC7_8C172D8990DD')" class="relative z-50"> 
+   <div style="display: none" x-bind="backdrop" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 z-50 duration-150 pointer-events-none bg-surface-900/(--mobile-backdrop-bg-opacity) dark:bg-surface-950/(--mobile-backdrop-bg-opacity) [--mobile-backdrop-bg-opacity:79%] backdrop-blur-[0px]" aria-hidden="true"></div> 
+   <div style="display: none" x-bind="menu" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0 -translate-y-full" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-full" class="fixed z-50 origin-top p-8 ring-1 ring-zinc-900/5 duration-150 overflow-y-auto bg-white-50/(--mobile-menu-bg-opacity) dark:bg-surface-900/(--mobile-menu-bg-opacity) [--mobile-menu-bg-opacity:100%] backdrop-blur-[0px] shadow rounded-tl rounded-tr rounded-bl rounded-br border-t-0 border-r-0 border-b-0 border-l-0 border-surface-900 dark:border-surface-900 top-5 right-5 bottom-auto left-5" tabindex="-1"> 
+    <div class="flex items-center justify-between"> 
+     <button aria-label="Close menu" type="button" @click="open = false" class="transition-all duration-[300ms] delay-[0ms] ease-in-out absolute inline-flex items-center justify-center rounded-md p-2.5 cursor-pointer text-text-50 dark:text-text-600 hover:text-brand-500 dark:hover:text-brand-600 top-8 right-8"> 
+      <svg viewbox="0 0 24 24" aria-hidden="true" class="size-6 transition-colors duration-300 text-text-50 dark:text-text-600 hover:text-brand-600 dark:hover:text-brand-600"> 
+       <path d="m17.25 6.75-10.5 10.5M6.75 6.75l10.5 10.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> 
+      </svg> </button> 
+     <div class="w-10 h-auto block mt-0 mb-4 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id="" rwresourcedropzone="svg"> 
+      <svg class="w-10 h-auto fill-brand-600/(--svgOpacity) text-brand-600/(--svgOpacity) [--svgOpacity:100%]" xmlns="http://www.w3.org/2000/svg" viewbox="0 -960 960 960" fill="currentColor">
+       <path d="M474-83q-174-26-276-134.5T82-513q-1-11 2.5-19.5T94-547q6-6 14.5-9t18.5-1q183 25 282 141t110 290q1 9-2.5 17.5T506-94q-6 6-14.5 9.5T474-83Zm6-372q-14-22-64.5-64.5T330-576q8-50 40.5-126.5T448-841q6-8 14.5-12t17.5-4q9 0 17 4t14 13q45 63 78.5 138T630-576q-39 18-87 58.5T480-455Zm118 343q-2-61-18.5-138.5T528-384q43-66 127.5-114T834-557q10-2 18 1.5t14 9.5q6 6 9.5 14t2.5 18q-8 161-87.5 261.5T598-112Z" />
+      </svg> 
+     </div> 
+    </div> 
+    <nav> 
+     <ul class=""> 
+      <li x-data="{ open: false }" class="cursor-pointer"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+        <a class="flex justify-between items-center" href="../">Home</a> 
+       </div> </li> 
+      <li x-data="{ open: false }" class="cursor-pointer"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+        <a class="flex justify-between items-center" href="../courses/">Teaching</a> 
+       </div> </li> 
+      <li x-data="{ open: false }" class="cursor-pointer"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+        <a class="flex justify-between items-center" href="../research/">Research</a> 
+       </div> </li> 
+      <li x-data="{ open: false }" class="cursor-pointer"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open" aria-current="page"> 
+        <a class="flex justify-between items-center" href="../research-advice/" aria-current="page">Research Advice</a> 
+       </div> </li> 
+      <li x-data="{ open: false }" class="cursor-pointer"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+        <a class="flex justify-between items-center" href="../students/">Project Students</a> 
+       </div> </li> 
+      <li x-data="{ open: false }" class="cursor-pointer"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+        <a class="flex justify-between items-center" href="../about/">About me</a> 
+       </div> </li> 
+     </ul> 
+    </nav> 
+    <button class="group/button group/rwC9F3FAF7_4CDA_4918_AED8_4335D19F436C flex items-center cursor-pointer flex w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-2 pb-2 pl-5 pr-5 transition-all duration-[300ms] delay-[0ms] ease-in-out bg-accent-600/(--bgColorOpacity) [--bgColorOpacity:100%] hover:bg-accent-700/(--bgColorOpacityEnd) hover:[--bgColorOpacityEnd:100%] border-t-0 border-r-0 border-b-0 border-l-0 border-solid rounded-tl rounded-tr rounded-bl rounded-br border-brand-600/[100%] justify-center text-surface-50/(--buttonFontAndTextStylesColorOpacity) [--buttonFontAndTextStylesColorOpacity:100%] font-body text-base text-shadow-none font-[600] leading-normal tracking-normal normal-case hover:text-surface-50/(--buttonFontAndTextStylesColorOpacityHover) hover:[--buttonFontAndTextStylesColorOpacityHover:100%] hover:text-shadow-none" id=""> Get started </button> 
+   </div> 
+  </div> 
+  <div class="rwBBBE04F2_74C9_496A_8110_7A59A814DB76 group/container group/rwBBBE04F2_74C9_496A_8110_7A59A814DB76 grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-10 mr-10" data-filter-tags="" id=""> 
+   <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-md pt-0 pb-0 pl-10 pr-10">
+    <header class="group/rw2550F1BF_EE20_46DD_BDC7_8C172D8990DD group/navbar items-center sticky z-[31] top-0 right-md bottom-md left-md isolate flex w-full h-auto mt-0 mb-0 ml-auto mr-auto bg-white-100/(--bgColorOpacity) dark:bg-surface-950/(--bgColorOpacity) [--bgColorOpacity:90%] brightness-[100%] drop-shadow-none saturate-[100%] backdrop-blur-[6px] shadow-sm shadow--500/(--box-shadow-opacity) [--box-shadow-opacity:100%] opacity-[100%]" id=""> 
+     <nav class="mx-auto flex items-center justify-between container w-full h-auto pt-6 pb-6 pl-5 pr-5"> 
+      <!-- Logo --> 
+      <div class="flex lg:flex-1 pt-0 pb-0 pl-0 pr-0"> 
+       <div class="w-10 h-auto block" id="" rwresourcedropzone="svg"> 
+        <svg class="w-10 h-auto fill-brand-600/(--svgOpacity) text-brand-600/(--svgOpacity) [--svgOpacity:100%]" viewbox="0 0 6250 6250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"> 
+         <g id="Page-1" serif:id="Page 1" transform="matrix(4.166667,0,0,4.166667,0,0)"> 
+          <rect x="0" y="0" /> 
+          <g id="Layer-1" serif:id="Layer 1"> 
+           <g transform="matrix(1,0,0,1,720.054,203.2946)"> 
+            <path d="M0,109.747C0,109.747 -23.88,24.806 69.021,14.53C160.257,4.327 164.989,16.861 164.989,16.861C164.989,16.861 189.275,161.979 0,109.747M-108.821,107.706C-289.585,157.551 -266.299,19.148 -266.299,19.148C-266.299,19.148 -258.266,9.957 -175.077,19.148C-90.932,28.627 -108.821,107.706 -108.821,107.706M294.535,-177.668C294.535,-177.668 205.065,-144.496 157.377,-123.482C157.377,-123.482 96.2,-154.685 -52.276,-154.685C-200.925,-154.685 -262.188,-123.482 -262.188,-123.482C-309.543,-144.496 -399.144,-177.668 -399.144,-177.668C-414.601,-76.517 -339.328,-29.38 -339.328,-29.38C-351.558,-1.563 -371.067,51.682 -361.66,123.467C-347.462,236.442 -233.142,245.805 -147.376,227.28C-61.567,209.074 -52.276,287.415 -52.276,287.415C-52.276,287.415 -43.056,209.074 42.637,227.28C128.46,245.805 242.621,236.442 256.949,123.467C266.111,51.682 246.963,-1.563 234.603,-29.38C234.603,-29.38 309.978,-76.517 294.535,-177.668" /> 
+           </g> 
+           <g transform="matrix(1,0,0,1,1383.7313,692.1697)"> 
+            <path d="M0,555.349C-92.293,299.239 -113.944,326.129 -113.944,326.129C-501.38,374.338 -621.041,100.485 -621.041,100.485L-601.256,64.462C-386.22,259.381 -139.981,209.87 -139.981,209.87C-241.55,-166.234 -355.263,-170.272 -396.626,-197.973C-445.356,-106.823 -606.814,-141.196 -636.28,-144.206C-713.912,-151.327 -715.953,-73.478 -715.953,-66.444C-715.953,-73.478 -718.037,-151.327 -795.596,-144.206C-770.964,-146.334 -998.577,-107.127 -1028.029,-206.511L-1028.637,-233.185C-1028.637,-233.185 -1126.777,-58.224 -981.354,142.514C-860.159,309.761 -796.696,398.652 -778.49,534.682C-759.965,670.827 -852.243,645.384 -933.102,650.117C-1013.614,654.56 -1004.554,751.455 -1004.554,751.455C-990.747,737.764 -937.574,742.395 -937.574,742.395C-787.448,788.534 -757.577,744.58 -727.719,684.62C-697.63,624.688 -618.971,604.281 -598.564,553.323C-589.287,530.036 -651.911,503.681 -667.368,484.519C-676.515,473.1 -669.409,456.832 -644.284,465.878C-618.971,475.257 -603.094,451.666 -609.969,435.384C-616.93,419.32 -635.354,396.38 -649.248,384.816C-663.041,373.296 -674.561,336.333 -635.354,352.499C-575.104,377.334 -574.25,336.333 -574.25,301.627C-574.25,301.627 -530.412,331.687 -502.798,486.184C-475.199,640.854 -482.001,638.495 -585.799,650.117C-689.497,661.565 -657.454,765.363 -657.454,765.363C-652.852,746.838 -631.967,733.147 -611.141,735.288C-590.445,737.764 -576.754,735.288 -509.6,744.58C-442.693,753.727 -382.949,728.588 -306.953,726.142C-230.725,723.754 -189.318,744.58 -186.858,733.147C-173.456,665.993 -251.435,650.117 -308.979,645.384C-366.87,640.854 -394.368,599.375 -359.88,576.19C-325.246,553.323 -325.246,546.115 -336.839,534.682C-359.88,511.714 -386.336,492.045 -380.677,479.179C-369.142,453.953 -352.976,483.911 -339.299,460.943C-323.017,434.27 -373.687,391.72 -373.687,391.72C-332.164,387.118 -293.044,377.754 -274.621,433.156C-256.081,488.528 -253.925,502.552 -235.443,541.701C-216.715,580.821 -203.009,580.821 -152.253,571.558C-63.434,555.349 0,555.349 0,555.349" /> 
+           </g> 
+          </g> 
+         </g> 
+        </svg> 
+       </div> 
+      </div> 
+      <!-- Mobile menu button --> 
+      <div class="flex lg:hidden"> 
+       <button x-data type="button" class="cursor-pointer text-text-50 dark:text-text-600 hover:text-brand-500 dark:hover:text-brand-600" @click="$dispatch('navigation-standard-toggle', 'mobile-menu-rw2550F1BF_EE20_46DD_BDC7_8C172D8990DD')"> <span class="sr-only">Open main menu</span> 
+        <svg class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"> 
+         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /> 
+        </svg> </button> 
+      </div> 
+      <!-- Desktop items --> 
+      <div class="hidden lg:flex gap-6"> 
+       <div x-data="desktopSubmenu" class="relative"> 
+        <a href="../" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Home </a> 
+       </div> 
+       <div x-data="desktopSubmenu" class="relative"> 
+        <a href="../courses/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Teaching </a> 
+       </div> 
+       <div x-data="desktopSubmenu" class="relative"> 
+        <a href="../research/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Research </a> 
+       </div> 
+       <div x-data="desktopSubmenu" class="relative"> 
+        <a href="../research-advice/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out" aria-current="page"> Research Advice </a> 
+       </div> 
+       <div x-data="desktopSubmenu" class="relative"> 
+        <a href="../students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Project Students </a> 
+       </div> 
+       <div x-data="desktopSubmenu" class="relative"> 
+        <a href="../about/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> About me </a> 
+       </div> 
+      </div> 
+      <!-- Desktop right items --> 
+      <div class="hidden lg:flex lg:justify-end"> 
+      </div> 
+     </nav> 
+    </header>
+    <article class="prose prose-article w-auto h-auto mt-5 mb-5 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
+     <h4>Research Advice</h4>
+     <p>Some notes on pursuing a research path in Computer Science (in the UK)</p> 
+    </article>
+    <div class="rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD group/container group/rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-auto mr-auto" data-filter-tags="" id=""> 
+     <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-md pt-0 pb-0 pl-0 pr-0">
+      <article class="prose prose-article w-auto h-auto" id=""> 
+       <p>A PhD is the highest academic research degree, focused on doing original, publishable work that advances knowledge in a field. In computer science, that usually means spending 3–4 years (full‑time) or 5-8 years (part-time) working deeply on a focused research problem and writing a thesis that is examined by experts.</p> 
+       <p>Let’s consider the following:</p> 
+       <ol> 
+        <li>What a PhD is (in practical terms), and</li> 
+        <li>How do you actually go about doing one in computer science in the UK?</li> 
+       </ol> 
+      </article>
+      <div class="group/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rwF91CA4F0_175C_488A_B685_E46B2FFE25A1" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rwF91CA4F0_175C_488A_B685_E46B2FFE25A1" role="group" x-bind="details" x-data="() => accordion('rwF91CA4F0_175C_488A_B685_E46B2FFE25A1', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+        <span class="flex-1 text-left"> 
+         <article class="prose prose-article w-auto h-auto" id=""> 
+          <h4>What a PhD actually is (in practice)&nbsp;</h4> 
+         </article> </span> 
+        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1:text-surface-900" aria-hidden="true"> 
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
+          <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
+         </svg> </span> 
+       </div> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" class=""> 
+        <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
+         <p>A UK PhD in computer science typically involves:</p> 
+         <ul> 
+          <li><strong>Original research</strong>: You’re not just learning existing material; you’re expected to contribute something new(-ish) (e.g. an algorithm, technique, system, theory, dataset, or empirical finding).</li> 
+          <li><strong>Supervision</strong>: You work under one or more supervisors (academics) who guide your research but expect you to become increasingly independent.</li> 
+          <li><strong>Thesis</strong>: You write a substantial document (often 60,000–100,000 words) that presents your research and its contribution to the field.</li> 
+          <li><strong>Viva voce examination</strong>: You defend your thesis in an oral exam (the “viva”) with two examiners (usually one internal, one external to the university).</li> 
+          <li><strong>Duration</strong>: Commonly 3–4 years full‑time, or 5–8 years part‑time.</li> 
+          <li><strong>Output</strong>: Publications in conferences/journals, software, datasets, and your final thesis. The goal is to become a subject‑matter expert capable of independent research.</li> 
+         </ul> 
+         <p>In computer science, PhD work ranges from very theoretical (e.g. programming languages, algorithms, formal methods) to applied/experimental (e.g. machine learning, systems, HCI, cybersecurity, software engineering, NLP, etc.).</p> 
+        </article> 
+       </div> 
+      </div>
+      <div class="group/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C" role="group" x-bind="details" x-data="() => accordion('rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+        <span class="flex-1 text-left"> 
+         <article class="prose prose-article w-auto h-auto" id=""> 
+          <h4>Routes into a Computer Science PhD in the UK&nbsp;</h4> 
+         </article> </span> 
+        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C:text-surface-900" aria-hidden="true"> 
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
+          <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
+         </svg> </span> 
+       </div> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" class=""> 
+        <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
+         <p>At a high level, you have three main routes:</p> 
+         <ol> 
+          <li>Direct PhD application to a university’s CS department.</li> 
+          <li>Doctoral Training Centre (DTC/CDT) programmes (e.g. EPSRC Centres for Doctoral Training).</li> 
+          <li>“1+3” or Master ’s-plus-PhD pathway (often doing an MSc/MRes first, then progressing to PhD).</li> 
+         </ol> 
+         <p>You do not always need a prior Master’s degree if your undergraduate background is strong, but many applicants do have one, especially in competitive areas like AI/ML.</p> 
+         <p>Typical entry expectations:</p> 
+         <ul> 
+          <li>A good honours degree in a relevant subject (usually at least a 2:1; many places informally prefer a First or strong 2:1).</li> 
+          <li>Often, a Master’s with Merit/Distinction is a plus (or de facto expected) for more theoretical or competitive areas.</li> 
+          <li>Evidence of research potential: project work, dissertation, publications, and strong academic references.</li> 
+         </ul> 
+        </article> 
+       </div> 
+      </div>
+      <div class="group/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw6C26B641_8B6C_41D9_A5FB_0523B91B4404" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw6C26B641_8B6C_41D9_A5FB_0523B91B4404" role="group" x-bind="details" x-data="() => accordion('rw6C26B641_8B6C_41D9_A5FB_0523B91B4404', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+        <span class="flex-1 text-left"> 
+         <article class="prose prose-article w-auto h-auto" id=""> 
+          <h4>Step‑by‑step: how to go about it&nbsp;</h4> 
+         </article> </span> 
+        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404:text-surface-900" aria-hidden="true"> 
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
+          <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
+         </svg> </span> 
+       </div> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" class=""> 
+        <div class="group/rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50 relative w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id="rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50"> 
+         <div class="swiper" x-data="elementsContentSlider('rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50', {'loop':true,'rewind':false,'slidesPerView':1,'spaceBetween':0,'speed':400,'effect':'slide','autoplay':false})"> 
+          <div class="swiper-wrapper"> 
+           <div class="swiper-slide min-h-[100px]"> 
+            <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
+             <p>Here’s a concrete path for computer science in the UK.</p> 
+             <br /> 
+             <h5>Clarify your research interests&nbsp;</h5> 
+             <br /> 
+             <p>You don’t need a fully formed topic, but you should narrow down to a research area or a small cluster of them, for example:</p> 
+             <ul> 
+              <li>Programming languages and software engineering (e.g. type systems, program analysis, software architecture, verification, developer tools, AI‑assisted programming).</li> 
+              <li>Machine learning / AI (e.g. deep learning, NLP, reinforcement learning, trustworthy AI).</li> 
+              <li>Cybersecurity (e.g. secure systems, cryptography, privacy, threat detection).</li> 
+              <li>Information retrieval, data mining, recommender systems.</li> 
+              <li>Human–computer interaction, visualisation, etc.</li> 
+             </ul> 
+             <p>Within that, try to crystallise:</p> 
+             <ul> 
+              <li>What kinds of problems do you enjoy (theoretical vs systems vs data‑driven vs user‑focused)?</li> 
+              <li>Any prior experience (final‑year project, Master’s dissertation, work projects) that could naturally lead to deeper research.</li> 
+             </ul> 
+             <p>Write a one‑page informal outline for yourself:</p> 
+             <blockquote> 
+              <p>“I’m interested in X because of Y; I think there’s an open problem around Z.”</p> 
+             </blockquote> 
+             <p>This will be invaluable when you start talking to potential supervisors.</p> 
+            </article> 
+           </div> 
+           <div class="swiper-slide min-h-[100px]"> 
+            <article class="prose prose-article w-auto h-auto" id=""> 
+             <h5>Identify potential universities and supervisors&nbsp;</h5> 
+             <br /> 
+             <p>In the UK, who supervises you often matters more than the exact institution’s “brand” for the quality of your PhD experience.</p> 
+             <p>Look for:</p> 
+             <ul> 
+              <li>Departments with strong groups in your area (e.g. “Software Systems”, “Programming Languages”, “Machine Learning”, “Cybersecurity”, “Information Retrieval”, etc.).</li> 
+              <li>Individual academics whose work genuinely interests you.</li> 
+             </ul> 
+             <p>Typical process:</p> 
+             <ol> 
+              <li>Browse university CS department pages, look at research groups and staff profiles.</li> 
+              <li>Check recent publications of people whose topics resonate with you (Google Scholar, group pages).</li> 
+              <li>Make a short list of 3–10 potential supervisors whose recent work aligns with your interests.</li> 
+             </ol> 
+             <p>You want someone whose current work overlaps with what you’d like to do, not just a vague match to “AI” or “security”.</p> 
+             <ol start="3"> 
+              <li>Decide on funding route(s)&nbsp;</li> 
+             </ol> 
+             <p>In the UK, common funding sources for computer science PhDs include:</p> 
+             <ul> 
+              <li><strong>University studentships/scholarships</strong>: Often funded by EPSRC, the university, or industry partnerships; they typically cover fees + a tax‑free stipend.</li> 
+              <li><strong>CDT/DTP programmes</strong>: Structured training programmes, sometimes with a first‑year taught component plus rotations before settling on a project.</li> 
+              <li><strong>Industry‑funded PhDs</strong>: Linked to a company project, often co‑supervised by industry.</li> 
+              <li><strong>Self‑funding</strong>: Paying your own fees and living costs; this is possible but demanding, so usually a last resort.</li> 
+             </ul> 
+             <p>Each studentship has its own eligibility and deadlines. Many are competitive and have specific topics attached (“PhD in ML for healthcare data”, “PhD in secure distributed systems”, etc.).</p> 
+            </article> 
+           </div> 
+           <div class="swiper-slide min-h-[100px]"> 
+            <article class="prose prose-article w-auto h-auto" id=""> 
+             <h5>The application process in detail&nbsp;</h5> 
+             <br /> 
+             <p>The typical sequence involves informal contact with potential supervisors&nbsp;</p> 
+             <p>Before submitting formal applications, it is common and often helpful to email potential supervisors.</p> 
+             <p>A good email is:</p> 
+             <ul> 
+              <li>Brief and specific.</li> 
+              <li>Shows you’ve read their work.</li> 
+              <li>Clearly links your background to their interests.</li> 
+             </ul> 
+             <p>For example, you might include:</p> 
+             <ul> 
+              <li>A short introduction (academic background, current role).</li> 
+              <li>Why are you interested in their work?</li> 
+              <li>An outline of what you’d like to work on.</li> 
+              <li>Whether you’re looking for funded opportunities or have your own funding.</li> 
+              <li>Attach a brief CV and maybe a transcript.</li> 
+             </ul> 
+             <p>The best‑case outcome: a meeting where you discuss possible topics and funding options, and they agree to support your PhD application.</p> 
+            </article> 
+           </div> 
+           <div class="swiper-slide min-h-[100px]"> 
+            <article class="prose prose-article w-auto h-auto" id=""> 
+             <h5>Prepare a research proposal (if required)&nbsp;</h5> 
+             <br /> 
+             <p>Some programmes (especially direct PhD routes) ask for a research proposal, often 1,000–2,000 words. Even when not formally required, it’s good to draft one.</p> 
+             <p>Typical components:</p> 
+             <ul> 
+              <li>Title and area: Clear and focused, even if provisional.</li> 
+              <li>Background and motivation: What is the problem, and why does it matter?</li> 
+              <li>Related work: Briefly situate the problem in current research (not exhaustive, but shows you’ve read around).</li> 
+              <li>Proposed approach: How you might tackle the problem (methods, techniques, datasets, tools).</li> 
+              <li>Feasibility: Why this looks plausible for a 3–4‑year or 6-7-year PhD.</li> 
+              <li>Your fit: How your skills/experience align with the project.</li> 
+             </ul> 
+             <p>This doesn’t lock you in forever; PhD topics evolve. But a coherent proposal demonstrates that you understand what research involves.</p> 
+            </article> 
+           </div> 
+           <div class="swiper-slide min-h-[100px]"> 
+            <article class="prose prose-article w-auto h-auto" id=""> 
+             <h5>Assemble your application materials&nbsp;</h5> 
+             <br /> 
+             <p>Most UK CS PhD applications will need:</p> 
+             <ul> 
+              <li><strong>Academic CV</strong>: Focused on education, projects, publications, technical skills, teaching/industry experience.</li> 
+              <li><strong>Academic transcripts</strong>: Degrees and grades.</li> 
+              <li><strong>Research proposal</strong> (if required).</li> 
+              <li><strong>Personal statement/statement of purpose</strong>: Why you want a PhD, why this topic, why this institution/supervisor, and where you hope it will lead.</li> 
+              <li><strong>References</strong>: Usually 2 (occasionally 3) academic referees who can comment on your research potential.</li> 
+             </ul> 
+             <p>Emphasise:</p> 
+             <ul> 
+              <li>Any research‑style work (dissertations, independent projects, publications, open‑source contributions).</li> 
+              <li>Evidence of persistence and independent work.</li> 
+              <li>Relevant teaching or industry experience, particularly if it relates to your proposed area.</li> 
+             </ul> 
+            </article> 
+           </div> 
+           <div class="swiper-slide min-h-[100px]"> 
+            <article class="prose prose-article w-auto h-auto" id=""> 
+             <h5>Submit applications and attend interviews&nbsp;</h5> 
+             <br /> 
+             <p>After you submit, the typical next steps are:</p> 
+             <ul> 
+              <li><strong>Shortlisting</strong>: If a supervisor is interested (and funding is possible), you may be shortlisted.</li> 
+              <li><p><strong>Interview</strong>: This may be with the potential supervisor and/or a panel. They’ll ask about:</p> <p>▫ Your background and motivation.</p> <p>▫ Your understanding of the research area.</p> <p>▫ How you cope with setbacks, independent work, and problem‑solving.</p> <p>▫ Sometimes, a short presentation on past work or your proposal.</p> </li> 
+             </ul> 
+             <p>Interviews are often fairly conversational, but they’re checking both fit and realistic expectations about what a PhD involves.</p> 
+            </article> 
+           </div> 
+          </div> 
+          <div class="absolute inset-0 flex items-center justify-between pointer-events-none px-2 z-10"> 
+           <button class="pointer-events-auto flex items-center justify-center cursor-pointer transition-all size-10 rounded-tl-md rounded-tr-md rounded-bl-md rounded-br-md bg-surface-100 text-text-50 hover:bg-surface-200 hover:text-text-50 content-slider-prev" aria-label="Previous slide"> 
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-[65%]" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"> 
+             <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /> 
+            </svg> </button> 
+           <button class="pointer-events-auto flex items-center justify-center cursor-pointer transition-all size-10 rounded-tl-md rounded-tr-md rounded-bl-md rounded-br-md bg-surface-100 text-text-50 hover:bg-surface-200 hover:text-text-50 content-slider-next" aria-label="Next slide"> 
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-[65%]" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"> 
+             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /> 
+            </svg> </button> 
+          </div> 
+          <div class="swiper-pagination !relative flex items-center justify-center mt-4 gap-2" data-bullet-class="rounded-full cursor-pointer transition-all size-3" data-bullet-normal="bg-surface-300" data-bullet-active="bg-brand-500"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="group/rw943077C8_90A5_411E_84F7_832BF598E446 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw943077C8_90A5_411E_84F7_832BF598E446" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw943077C8_90A5_411E_84F7_832BF598E446" role="group" x-bind="details" x-data="() => accordion('rw943077C8_90A5_411E_84F7_832BF598E446', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+        <span class="flex-1 text-left"> 
+         <article class="prose prose-article w-auto h-auto" id=""> 
+          <h4>Practical considerations: time, money, and life&nbsp;</h4> 
+         </article> </span> 
+        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw943077C8_90A5_411E_84F7_832BF598E446:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw943077C8_90A5_411E_84F7_832BF598E446:text-surface-900" aria-hidden="true"> 
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
+          <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
+         </svg> </span> 
+       </div> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" class=""> 
+        <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
+         <p>A few realities to factor in:</p> 
+         <ul> 
+          <li><strong>Time commitment</strong>: A full‑time PhD is basically a full‑time job in terms of hours and mental load. A part-time PhD is even more of a commitment as you need to fit your existing commitments around your studies.</li> 
+          <li><strong>Funding level</strong>: UK stipends (for funded places) are typically aligned with UKRI rates. Check whether they’re enough for your circumstances and location.</li> 
+          <li><strong>Part‑time options</strong>: Some universities allow part‑time or distance/remote PhDs, especially for people already in academic or industry roles. This stretches the duration but may be more compatible with other responsibilities.</li> 
+          <li><strong>Location and supervision style</strong>: Some people thrive with a very hands‑on supervisor and close research group; others prefer more independence. Talking to current PhD students in the group can be very illuminating.</li> 
+         </ul> 
+        </article> 
+       </div> 
+      </div>
+      <div class="group/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE" role="group" x-bind="details" x-data="() => accordion('rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+        <span class="flex-1 text-left"> 
+         <article class="prose prose-article w-auto h-auto" id=""> 
+          <h4>A concrete action plan</h4> 
+         </article> </span> 
+        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE:text-surface-900" aria-hidden="true"> 
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
+          <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
+         </svg> </span> 
+       </div> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" class=""> 
+        <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
+         <p>If you’re thinking, “What should I actually do next?”, here is a simple sequence:</p> 
+         <ol> 
+          <li><p>Write a one‑page note for yourself on:</p> <p>▫ Your core interests in computer science.</p> <p>▫ Any existing projects that could lead to research.</p> </li> 
+          <li>Spend a couple of evenings looking at UK CS departments and research groups in those areas; make a list of potential supervisors.</li> 
+          <li>Read 1–2 recent papers per shortlisted academic to see whose work genuinely resonates.</li> 
+          <li>Draft a short email + CV and contact 3–6 potential supervisors, asking if they’re open to supervising a PhD in your area and whether there are funded opportunities.</li> 
+          <li>For any positive responses, refine your research idea into a short proposal and follow the department’s formal application process.</li> 
+          <li><p>Keep an eye on:</p> <p>▫ University PhD scholarships pages.</p> <p>▫ EPSRC CDT websites in areas like AI, data science, cybersecurity, robotics, etc., and apply to any that fit your interests.</p> </li> 
+         </ol> 
+        </article> 
+       </div> 
+      </div>
+     </div> 
+     <div class="z-0 transform-gpu overflow-hidden"> 
+     </div> 
+    </div>
+    <footer class="rwBD0645EF_6C42_423C_894F_D99E89BE2141 group/container group/rwBD0645EF_6C42_423C_894F_D99E89BE2141 grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 isolate grid w-full h-auto mt-0 mb-0 ml-auto mr-auto" data-filter-tags="" id=""> 
+     <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-5 pt-10 pb-10 pl-5 pr-5">
+      <div class="rw64FDBF69_E350_4B83_9248_B606E068804C group/container group/rw64FDBF69_E350_4B83_9248_B606E068804C grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-auto mr-auto" data-filter-tags="" id=""> 
+       <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-3 pt-0 pb-0 pl-0 pr-0">
+        <div class="group/rw2F98C2AC_4484_4043_9188_269BE6731721 group/flex transform flex w-full h-auto gap-x-auto gap-y-5 flex-col flex-nowrap items-[normal] justify-items-normal content-normal justify-normal" data-filter-tags="" id=""> 
+         <nav class="flex flex-row items-center justify-center gap-8 w-auto h-auto"> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../"> <span class="">Home</span> </a> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../courses/"> <span class="">Teaching</span> </a> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../research/"> <span class="">Research</span> </a> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../research-advice/" aria-current="page"> <span class="">Research Advice</span> </a> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../students/"> <span class="">Project Students</span> </a> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../about/"> <span class="">About me</span> </a> 
+         </nav>
+         <div class="w-48 h-0.5 mt-0 mb-0 ml-auto mr-auto pt-0 pb-0 pl-0 pr-0 bg-brand-500/(--bgColorOpacity) [--bgColorOpacity:100%]" aria-orientation="horizontal" id="" role="separator">
+           &nbsp; 
+         </div>
+         <span class="[&amp;_a]:text-brand-500 [&amp;_a]:no-underline [&amp;_a]:font-[400] [&amp;_a:hover]:text-brand-800 [&amp;_a:hover]:no-underline [&amp;_a:hover]:font-[400] [&amp;_a:visited]:text-brand-800 [&amp;_a:visited]:no-underline [&amp;_a:visited]:font-[400] block w-auto h-auto text-text-700/(--textColorOpacity) dark:text-text-500/(--textColorOpacity) [--textColorOpacity:100%] font-heading text-base font-[400] tracking-normal leading-none not-italic text-shadow-none normal-case whitespace-none text-center" id=""> © 1986-2026 KEITH LEONARD MANNOCK All rights reserved. </span> 
+        </div>
+       </div> 
+       <div class="z-0 transform-gpu overflow-hidden"> 
+       </div> 
+      </div>
+     </div> 
+     <div class="z-0 transform-gpu overflow-hidden"> 
+     </div> 
+    </footer>
+   </div> 
+   <div class="z-0 transform-gpu overflow-hidden"> 
+   </div> 
+  </div> 
+  <!-- <footer class="site-footer">
+        <p>
+            Some text with a
+            <a href="https://example.com">hyperlink</a>.
+        </p>
+    </footer> --> 
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    document.addEventListener("DOMContentLoaded", () => {
+        const revealElements = document.querySelectorAll("[data-reveal]");
+        revealElements.forEach((element, index) => {
+            element.style.visibility = "hidden";
+            element.style.transitionProperty = "none";
+
+            const {
+                revealAnimation: animation = "fadeUpIn",
+                revealExitAnimation: exitAnimation = "fadeUpOut",
+                revealPlay: play = "enter-exit",
+                revealStart: start = "top bottom",
+                revealEnd: end = "top top",
+                revealDelay: delay = 0,
+                revealDuration: duration = 0.5,
+                revealEasing: easing = "power1.out",
+                revealDistance: distance = 200,
+                revealDegrees: degrees = 90,
+                revealScrub: scrub = false,
+                revealDebug: debug = false,
+                revealId,
+            } = element.dataset;
+
+            const id = `${revealId}-${index}`;
+            const wantsScrub = scrub === "true";
+            const wantsDebug = debug === "true";
+            const wantsExitAnimation = play == "enter-exit";
+            const playOnce = play == "enter-once";
+            const durationNumber = parseFloat(duration);
+            const delayNumber = parseFloat(delay);
+            const degreesNumber = parseFloat(degrees);
+            const degreesNumberOut = degreesNumber * -1;
+            
+            let triggeredOnce = false;
+            
+            const config = {
+                duration: durationNumber,
+                ease: easing,
+                delay: delayNumber,
+                distance: distance,
+                degrees: degreesNumber,
+                degreesOut: degreesNumberOut,
+                clearProps: "auto",
+                onComplete: () => {
+                    element.style.transitionProperty = "";
+                },
+            }
+
+            const markers = wantsDebug
+                ? {
+                    startColor: "green",
+                    endColor: "red",
+                    fontSize: "12px",
+                    fontWeight: "bold",
+                    indent: 20,
+                }
+                : false;
+
+            if (wantsScrub) {
+                gsap.effects[animation](element, {
+                    scrollTrigger: {
+                        trigger: element,
+                        start: start,
+                        end: end,
+                        scrub: true,
+                        markers,
+                        id,
+                    },
+                    ...config
+                });
+            } else {
+                ScrollTrigger.create({
+                    trigger: element,
+                    start: start,
+                    end: end,
+                    markers,
+                    id,
+                    onEnter: () => {
+                        if (playOnce && triggeredOnce) return;
+                        element.style.transitionProperty = "none";
+                        triggeredOnce = true;
+                        gsap.effects[animation](element, config);
+                    },
+                    onLeave: () => {
+                        if (wantsExitAnimation) {
+                            element.style.transitionProperty = "none";
+                            gsap.effects[exitAnimation](element, { delay: 0, ...config });
+                        }
+                    },
+                    onEnterBack: () => {
+                        if (wantsExitAnimation) {
+                            element.style.transitionProperty = "none";
+                            gsap.effects[animation](element, config);
+                        }
+                    },
+                    onLeaveBack: () => {
+                        if (wantsExitAnimation) {
+                            element.style.transitionProperty = "none";
+                            gsap.effects[exitAnimation](element, { delay: 0, ...config });
+                        }
+                    },
+                });
+            }
+        });
+    });
+</script> 
+  <script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.data("accordion", (id, options = {}) => ({
+            open: options.openOnLoad || false,
+            id,
+            options,
+            init() {
+                this.$watch("open", (value) => {
+                    if (value && this.options.groupId) {
+                        this.$dispatch("close-accordions-in-group", {
+                            groupId: this.options.groupId,
+                            id: this.id,
+                        });
+                    }
+                });
+            },
+
+            details: {
+                ["@close-accordions-in-group.window"](e) {
+                    const { groupId, id } = e.detail;
+                    if (groupId == this.options.groupId && id != this.id) {
+                        this.open = false;
+                    }
+                },
+                [":data-open"]() {
+                    return this.open.toString();
+                },
+            },
+
+            summary: {
+                ["@click"]() {
+                    this.open = !this.open;
+                },
+            },
+
+            content: {
+                ["x-show"]() {
+                    return this.open;
+                },
+            },
+        }));
+    });
+</script> 
+  <script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.data("desktopSubmenu", () => ({
+            open: false,
+            closeTimeout: null,
+            closeDelay: 300,
+
+            openMenu() {
+                clearTimeout(this.closeTimeout);
+                this.open = true;
+            },
+
+            startCloseTimer() {
+                this.closeTimeout = setTimeout(() => {
+                    this.closeMenu();
+                }, this.closeDelay);
+            },
+
+            cancelCloseTimer() {
+                clearTimeout(this.closeTimeout);
+            },
+
+            closeMenu() {
+                this.open = false;
+            },
+
+            handleMouseEnter() {
+                this.openMenu();
+            },
+
+            handleMouseLeave() {
+                this.startCloseTimer();
+            },
+        }));
+    });
+</script> 
+  <script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.data("navigationStandard", (id = null) => ({
+            id,
+            open: false,
+
+            init() {
+                window.addEventListener("navigation-standard-close", (e) => {
+                    if (this.id === e.detail) {
+                        this.close();
+                    }
+                });
+
+                window.addEventListener("navigation-standard-toggle", (e) => {
+                    if (this.id === e.detail) {
+                        this.toggle();
+                    }
+                });
+
+                window.addEventListener("keyup", (e) => {
+                    if (e.key === "Escape") {
+                        this.close();
+                    }
+                });
+
+                this.$el.addEventListener("click", (e) => {
+                    const link = e.target.closest("a");
+                    if (link && this.open) {
+                        this.close();
+                    }
+                });
+
+                this.$watch("open", (value) => {
+                    if (value) {
+                        document.body.style.overflow = "hidden";
+                    } else {
+                        document.body.style.overflow = "auto";
+                    }
+                });
+            },
+
+            toggle() {
+                if (this.open) {
+                    return this.close();
+                }
+
+                this.open = true;
+            },
+
+            close() {
+                if (!this.open) {
+                    return;
+                }
+
+                this.open = false;
+            },
+
+            backdrop: {
+                ["x-show"]() {
+                    return this.open;
+                },
+                ["@click"]() {
+                    this.close();
+                },
+            },
+
+            menu: {
+                ["x-show"]() {
+                    return this.open;
+                },
+                ["@click.away"]() {
+                    this.close();
+                },
+            },
+        }));
+    });
+</script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=806512462"></script> 
+  <script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.data("elementsContentSlider", (id, options) => ({
+            swiper: null,
+            activeIndex: 0,
+            id,
+
+            init() {
+                const swiperEl = this.$el;
+
+                if (!swiperEl) {
+                    console.warn("Content Slider: Could not find swiper element");
+                    return;
+                }
+
+                // Parse options if string
+                const config = typeof options === "string" ? JSON.parse(options) : options;
+
+                // Build Swiper config
+                const swiperConfig = {
+                    loop: config.loop || false,
+                    rewind: config.rewind !== false,
+                    slidesPerView: config.slidesPerView || 1,
+                    spaceBetween: config.spaceBetween || 0,
+                    speed: config.speed || 400,
+                    effect: config.effect || 'slide',
+                };
+
+                // Add fade-specific options for smooth crossfade
+                if (config.effect === 'fade') {
+                    swiperConfig.fadeEffect = config.fadeEffect || { crossFade: true };
+                }
+
+                // Add autoplay if enabled
+                if (config.autoplay && config.autoplay.delay) {
+                    swiperConfig.autoplay = config.autoplay;
+                }
+
+                // Add navigation if arrows exist (use custom classes to avoid Swiper's default styling)
+                const prevEl = swiperEl.querySelector('.content-slider-prev');
+                const nextEl = swiperEl.querySelector('.content-slider-next');
+                if (prevEl && nextEl) {
+                    swiperConfig.navigation = { prevEl, nextEl };
+                }
+
+                // Add pagination if exists - use custom bullet classes to avoid Swiper's default styling
+                const paginationEl = swiperEl.querySelector('.swiper-pagination');
+                if (paginationEl) {
+                    const bulletClass = paginationEl.dataset.bulletClass || '';
+                    const bulletNormal = paginationEl.dataset.bulletNormal || '';
+                    const bulletActive = paginationEl.dataset.bulletActive || '';
+                    const normalClasses = bulletNormal.split(' ').filter(Boolean);
+                    const activeClasses = bulletActive.split(' ').filter(Boolean);
+
+                    swiperConfig.pagination = {
+                        el: paginationEl,
+                        clickable: true,
+                        bulletClass: 'content-slider-bullet ' + bulletClass,
+                        bulletActiveClass: 'content-slider-bullet-active',
+                        renderBullet: function(index, className) {
+                            // Start with normal color, active will be updated by callback
+                            return '<span class="' + className + ' ' + bulletNormal + '"></span>';
+                        },
+                    };
+
+                    // Update bullet colors when pagination updates
+                    swiperConfig.on = swiperConfig.on || {};
+                    swiperConfig.on.paginationUpdate = function(swiper) {
+                        const bullets = paginationEl.querySelectorAll('.content-slider-bullet');
+                        bullets.forEach((bullet, index) => {
+                            const isActive = bullet.classList.contains('content-slider-bullet-active');
+                            if (isActive) {
+                                normalClasses.forEach(cls => bullet.classList.remove(cls));
+                                activeClasses.forEach(cls => bullet.classList.add(cls));
+                            } else {
+                                activeClasses.forEach(cls => bullet.classList.remove(cls));
+                                normalClasses.forEach(cls => bullet.classList.add(cls));
+                            }
+                        });
+                    };
+                }
+
+                // Initialize Swiper
+                this.swiper = new Swiper(swiperEl, swiperConfig);
+
+                // Listen for slide changes
+                this.swiper.on('slideChange', () => {
+                    this.activeIndex = this.swiper.realIndex;
+                });
+
+                // Set initial active index
+                this.activeIndex = this.swiper.realIndex;
+            },
+
+            destroy() {
+                if (this.swiper) {
+                    this.swiper.destroy();
+                    this.swiper = null;
+                }
+            },
+        }));
+    });
+</script>  
+ </body>
+</html>
