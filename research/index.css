@@ -272,6 +272,15 @@
   .order-last {
     order: 9999;
   }
+  .col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+  .col-span-full {
+    grid-column: 1 / -1;
+  }
+  .row-span-full {
+    grid-row: 1 / -1;
+  }
   .container {
     width: 100%;
     @media (width >= 640px) {
@@ -763,6 +772,9 @@
   .aspect-\[2\.8006432056427\] {
     aspect-ratio: 2.8006432056427;
   }
+  .aspect-\[undefined\] {
+    aspect-ratio: undefined;
+  }
   .size-3 {
     width: calc(var(--spacing) * 3);
     height: calc(var(--spacing) * 3);
@@ -898,6 +910,12 @@
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+  .grid-cols-subgrid {
+    grid-template-columns: subgrid;
+  }
+  .grid-rows-subgrid {
+    grid-template-rows: subgrid;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -1006,9 +1024,17 @@
   .rounded-bl-none {
     border-bottom-left-radius: 0.0rem;
   }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 0.12rem;
+  }
   .border-t-0 {
     border-top-style: var(--tw-border-style);
     border-top-width: 0.0rem;
+  }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 0.12rem;
   }
   .border-r-0 {
     border-right-style: var(--tw-border-style);
@@ -1018,19 +1044,33 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 0.0rem;
   }
+  .border-l {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 0.12rem;
+  }
   .border-l-0 {
     border-left-style: var(--tw-border-style);
     border-left-width: 0.0rem;
   }
+  .border-dashed {
+    --tw-border-style: dashed;
+    border-style: dashed;
+  }
   .border-solid {
     --tw-border-style: solid;
     border-style: solid;
+  }
+  .border-\[\#f59794\] {
+    border-color: #f59794;
   }
   .border-brand-600\/\[100\%\] {
     border-color: var(--color-brand-600);
   }
   .border-surface-900 {
     border-color: var(--color-surface-900);
+  }
+  .bg-\[\#f59794\]\/10 {
+    background-color: color-mix(in oklab, #f59794 10%, transparent);
   }
   .bg-accent-600\/\(--bgColorOpacity\) {
     background-color: #d47235;
@@ -1193,6 +1233,9 @@
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
   }
+  .text-brand-400 {
+    color: var(--color-brand-400);
+  }
   .text-brand-500 {
     color: var(--color-brand-500);
   }
@@ -1327,6 +1370,10 @@
   .duration-150 {
     --tw-duration: 150ms;
     transition-duration: 150ms;
+  }
+  .duration-200 {
+    --tw-duration: 200ms;
+    transition-duration: 200ms;
   }
   .duration-300 {
     --tw-duration: 300ms;
@@ -1660,9 +1707,74 @@
       text-shadow: none;
     }
   }
+  .\32 xl\:grid {
+    @media (width >= 96rem) {
+      display: grid;
+    }
+  }
+  .\32 xl\:hidden {
+    @media (width >= 96rem) {
+      display: none;
+    }
+  }
+  .\32 xl\:grid-cols-2 {
+    @media (width >= 96rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .xl\:grid {
+    @media (width >= 80rem) {
+      display: grid;
+    }
+  }
+  .xl\:hidden {
+    @media (width >= 80rem) {
+      display: none;
+    }
+  }
+  .xl\:grid-cols-2 {
+    @media (width >= 80rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .sm\:grid {
+    @media (width >= 640px) {
+      display: grid;
+    }
+  }
+  .sm\:hidden {
+    @media (width >= 640px) {
+      display: none;
+    }
+  }
+  .sm\:grid-cols-2 {
+    @media (width >= 640px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:grid {
+    @media (width >= 768px) {
+      display: grid;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 768px) {
+      display: none;
+    }
+  }
+  .md\:grid-cols-2 {
+    @media (width >= 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
   .lg\:flex {
     @media (width >= 1024px) {
       display: flex;
+    }
+  }
+  .lg\:grid {
+    @media (width >= 1024px) {
+      display: grid;
     }
   }
   .lg\:hidden {
@@ -1673,6 +1785,11 @@
   .lg\:flex-1 {
     @media (width >= 1024px) {
       flex: 1;
+    }
+  }
+  .lg\:grid-cols-2 {
+    @media (width >= 1024px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   .lg\:justify-end {
