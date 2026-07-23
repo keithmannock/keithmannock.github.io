@@ -5,11 +5,8 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --color-blue-500: #3280ff;
-    --color-gray-800: #1e2939;
     --color-zinc-900: #18181b;
     --spacing: 0.25rem;
-    --font-weight-semibold: 600;
     --tracking-normal: 0em;
     --leading-normal: 1.5;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
@@ -253,9 +250,6 @@
   }
   .z-\[31\] {
     z-index: 31;
-  }
-  .order-last {
-    order: 9999;
   }
   .container {
     width: 100%;
@@ -758,9 +752,6 @@
   .max-w-\[100\%\] {
     max-width: 100%;
   }
-  .flex-1 {
-    flex: 1;
-  }
   .origin-top {
     transform-origin: top;
   }
@@ -1038,10 +1029,6 @@
     --tw-font-weight: 600;
     font-weight: 600;
   }
-  .font-semibold {
-    --tw-font-weight: var(--font-weight-semibold);
-    font-weight: var(--font-weight-semibold);
-  }
   .tracking-normal {
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
@@ -1057,9 +1044,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       color: color-mix(in oklab, var(--color-brand-600) var(--svgOpacity), transparent);
     }
-  }
-  .text-gray-800 {
-    color: var(--color-gray-800);
   }
   .text-surface-50\/\(--buttonFontAndTextStylesColorOpacity\) {
     color: #fffaf3;
@@ -1347,23 +1331,6 @@
       }
     }
   }
-  .focus\:ring-2 {
-    &:focus {
-      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
-      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-    }
-  }
-  .focus\:ring-blue-500 {
-    &:focus {
-      --tw-ring-color: var(--color-blue-500);
-    }
-  }
-  .focus\:outline-none {
-    &:focus {
-      --tw-outline-style: none;
-      outline-style: none;
-    }
-  }
   .aria-\[current\=page\]\:text-brand-600\/\(--nav-item-text-opacity\) {
     &[aria-current="page"] {
       color: #b46040;
@@ -1558,96 +1525,6 @@
   .\[\&\>\*\]\:min-w-0 {
     &>* {
       min-width: 0;
-    }
-  }
-  .\[\&\>svg\]\:size-\[24px\] {
-    &>svg {
-      width: 24px;
-      height: 24px;
-    }
-  }
-  .\[\&\>svg\]\:shrink-0 {
-    &>svg {
-      flex-shrink: 0;
-    }
-  }
-  .\[\&\>svg\]\:rotate-\[90deg\] {
-    &>svg {
-      rotate: 90deg;
-    }
-  }
-  .\[\&\>svg\]\:text-surface-900 {
-    &>svg {
-      color: var(--color-surface-900);
-    }
-  }
-  .\[\&\>svg\]\:transition-transform {
-    &>svg {
-      transition-property: transform, translate, scale, rotate;
-      transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-      transition-duration: var(--tw-duration, var(--default-transition-duration));
-    }
-  }
-  .\[\&\>svg\]\:duration-300 {
-    &>svg {
-      --tw-duration: 300ms;
-      transition-duration: 300ms;
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rw4C8DAE18_8C5A_4400_BF2D_516B255925E9\:rotate-\[180deg\] {
-    &>svg {
-      &:is(:where(.group\/rw4C8DAE18_8C5A_4400_BF2D_516B255925E9)[data-open="false"] *) {
-        rotate: 180deg;
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rw4C8DAE18_8C5A_4400_BF2D_516B255925E9\:text-surface-900 {
-    &>svg {
-      &:is(:where(.group\/rw4C8DAE18_8C5A_4400_BF2D_516B255925E9)[data-open="false"] *) {
-        color: var(--color-surface-900);
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rw610D4DA6_E494_4A90_94E4_FDCB6EAB579A\:rotate-\[180deg\] {
-    &>svg {
-      &:is(:where(.group\/rw610D4DA6_E494_4A90_94E4_FDCB6EAB579A)[data-open="false"] *) {
-        rotate: 180deg;
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rw610D4DA6_E494_4A90_94E4_FDCB6EAB579A\:text-surface-900 {
-    &>svg {
-      &:is(:where(.group\/rw610D4DA6_E494_4A90_94E4_FDCB6EAB579A)[data-open="false"] *) {
-        color: var(--color-surface-900);
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rw9D5E29A4_AED6_4BB9_9C91_A6DE69B8243D\:rotate-\[180deg\] {
-    &>svg {
-      &:is(:where(.group\/rw9D5E29A4_AED6_4BB9_9C91_A6DE69B8243D)[data-open="false"] *) {
-        rotate: 180deg;
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rw9D5E29A4_AED6_4BB9_9C91_A6DE69B8243D\:text-surface-900 {
-    &>svg {
-      &:is(:where(.group\/rw9D5E29A4_AED6_4BB9_9C91_A6DE69B8243D)[data-open="false"] *) {
-        color: var(--color-surface-900);
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rwAC2FB47B_3615_44AE_9873_3BAC9E8782A6\:rotate-\[180deg\] {
-    &>svg {
-      &:is(:where(.group\/rwAC2FB47B_3615_44AE_9873_3BAC9E8782A6)[data-open="false"] *) {
-        rotate: 180deg;
-      }
-    }
-  }
-  .\[\&\>svg\]\:group-data-\[open\=false\]\/rwAC2FB47B_3615_44AE_9873_3BAC9E8782A6\:text-surface-900 {
-    &>svg {
-      &:is(:where(.group\/rwAC2FB47B_3615_44AE_9873_3BAC9E8782A6)[data-open="false"] *) {
-        color: var(--color-surface-900);
-      }
     }
   }
 }
