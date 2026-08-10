@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="scroll-smooth" lang="" dir="">
  <head> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=807793586"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=807793586"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=807793586"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=807793586"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=807793586"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=808074298"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=808074298"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=808074298"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=808074298"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=808074298"></script> 
   <meta charset="utf-8" /> 
   <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
   <meta name="viewport" content="width=device-width" /> 
@@ -20,7 +20,7 @@
   <meta property="og:title" content="Research Copy" /> 
   <meta property="og:url" content="https://keithmannock.github.io/research-advice-for-students/" /> 
   <title>Research Copy</title> 
-  <link href="index.css?rwcache=807793586" media="all" rel="stylesheet" type="text/css" /> 
+  <link href="index.css?rwcache=808074298" media="all" rel="stylesheet" type="text/css" /> 
   <style lang="css">
     /* Required for alpine.js x-cloak directive to work */
     [x-cloak] {
@@ -46,7 +46,7 @@
         /* Firefox */
     }
 </style> 
-  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=807793586" /> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=808074298" /> 
   <style>
     .swiper-wrapper {
         margin: 0;
@@ -80,7 +80,7 @@
         height: auto;
     }
 </style> 
-  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=807793586" /> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=808074298" /> 
  </head> 
  <body class="bg-surface-50 dark:bg-surface-950"> 
   <div x-data="navigationStandard('mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')" class="relative z-50"> 
@@ -751,7 +751,7 @@
         }));
     });
 </script> 
-  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=807793586"></script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=808074298"></script> 
   <script>
     document.addEventListener("alpine:init", () => {
         Alpine.data("elementsContentSlider", (id, options) => ({
@@ -1003,8 +1003,17 @@
             },
 
             pageText() {
-                const fmt = this.$root.dataset.pageText || "Page  of ";
-                return fmt.replace("", this.page).replace("", this.totalPages);
+                // The page/total placeholder tokens must never appear verbatim in
+                // this file (the template engine consumes them), backslash escape
+                // sequences break the edit-mode renderer, and the raw directive is
+                // no escape hatch either: it parses fine but the literal brace
+                // tokens it preserves kill the edit-mode canvas, blanking the
+                // whole table (see the 8e5dafa revert). Runtime token construction
+                // is the only formulation every pipeline stage tolerates — do not
+                // "clean up". Even comments here are lexed for directives/tokens.
+                const token = (name) => "{" + "{" + name + "}" + "}";
+                const fmt = this.$root.dataset.pageText || "Page " + token("page") + " of " + token("total");
+                return fmt.split(token("page")).join(this.page).split(token("total")).join(this.totalPages);
             },
         }));
     });
