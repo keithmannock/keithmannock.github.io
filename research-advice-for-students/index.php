@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="scroll-smooth" lang="" dir="">
  <head> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=808146877"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=808146877"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=808146877"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=808146877"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=808146877"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=808175910"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=808175910"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=808175910"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=808175910"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=808175910"></script> 
   <meta charset="utf-8" /> 
   <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
   <meta name="viewport" content="width=device-width" /> 
@@ -20,7 +20,7 @@
   <meta property="og:title" content="Research Copy" /> 
   <meta property="og:url" content="https://keithmannock.github.io/research-advice-for-students/" /> 
   <title>Research Copy</title> 
-  <link href="index.css?rwcache=808146877" media="all" rel="stylesheet" type="text/css" /> 
+  <link href="index.css?rwcache=808175910" media="all" rel="stylesheet" type="text/css" /> 
   <style lang="css">
     /* Required for alpine.js x-cloak directive to work */
     [x-cloak] {
@@ -46,7 +46,7 @@
         /* Firefox */
     }
 </style> 
-  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=808146877" /> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=808175910" /> 
   <style>
     .swiper-wrapper {
         margin: 0;
@@ -80,7 +80,7 @@
         height: auto;
     }
 </style> 
-  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=808146877" /> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=808175910" /> 
  </head> 
  <body class="bg-surface-50 dark:bg-surface-950"> 
   <div x-data="navigationStandard('mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')" class="relative z-50"> 
@@ -586,7 +586,7 @@
      </div> 
     </footer>
    </div> 
-   <div class="z-0 transform-gpu overflow-hidden"> 
+   <div class="z-0 transform-gpu bg-surface-50/(--bgColorOpacity) [--bgColorOpacity:100%] overflow-hidden"> 
    </div> 
   </div> 
   <!-- <footer class="site-footer">
@@ -751,7 +751,7 @@
         }));
     });
 </script> 
-  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=808146877"></script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=808175910"></script> 
   <script>
     document.addEventListener("alpine:init", () => {
         Alpine.data("elementsContentSlider", (id, options) => ({
