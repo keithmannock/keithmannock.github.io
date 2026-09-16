@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="scroll-smooth" lang="" dir="">
  <head> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=808314456"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=808314456"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=808314456"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=808314456"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=808314456"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=811246013"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=811246013"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=811246013"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=811246013"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=811246013"></script> 
   <meta charset="utf-8" /> 
   <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
   <meta name="viewport" content="width=device-width" /> 
@@ -20,7 +20,7 @@
   <meta property="og:title" content="Research Copy" /> 
   <meta property="og:url" content="https://keithmannock.github.io/research-advice-for-students/" /> 
   <title>Research Copy</title> 
-  <link href="index.css?rwcache=808314456" media="all" rel="stylesheet" type="text/css" /> 
+  <link href="index.css?rwcache=811246013" media="all" rel="stylesheet" type="text/css" /> 
   <style lang="css">
     /* Required for alpine.js x-cloak directive to work */
     [x-cloak] {
@@ -46,7 +46,7 @@
         /* Firefox */
     }
 </style> 
-  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=808314456" /> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=811246013" /> 
   <style>
     .swiper-wrapper {
         margin: 0;
@@ -80,7 +80,7 @@
         height: auto;
     }
 </style> 
-  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=808314456" /> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=811246013" /> 
  </head> 
  <body class="bg-surface-50 dark:bg-surface-950"> 
   <div x-data="navigationStandard('mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')" class="relative z-50"> 
@@ -203,18 +203,18 @@
         <li>How do you actually go about doing one in computer science in the UK?</li> 
        </ol> 
       </article>
-      <div class="group/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rwF91CA4F0_175C_488A_B685_E46B2FFE25A1" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rwF91CA4F0_175C_488A_B685_E46B2FFE25A1" role="group" x-bind="details" x-data="() => accordion('rwF91CA4F0_175C_488A_B685_E46B2FFE25A1', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rwF91CA4F0_175C_488A_B685_E46B2FFE25A1" x-bind="details" x-data="() => accordion('rwF91CA4F0_175C_488A_B685_E46B2FFE25A1', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>What a PhD actually is (in practice)&nbsp;</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwF91CA4F0_175C_488A_B685_E46B2FFE25A1:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" role="region" :aria-labelledby="'accordion-header-' + 'rwF91CA4F0_175C_488A_B685_E46B2FFE25A1'" class=""> 
         <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
          <p>A UK PhD in computer science typically involves:</p> 
          <ul> 
@@ -229,18 +229,18 @@
         </article> 
        </div> 
       </div>
-      <div class="group/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C" role="group" x-bind="details" x-data="() => accordion('rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C" x-bind="details" x-data="() => accordion('rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>The core differences between an MPhil and a PhD</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" role="region" :aria-labelledby="'accordion-header-' + 'rwE6DAC8A3_370E_4E3C_AFA3_9518AA7CA10C'" class=""> 
         <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
          <ol> 
           <li><p>Originality and Contribution to Knowledge</p> 
@@ -262,18 +262,18 @@
         </article> 
        </div> 
       </div>
-      <div class="group/rw3C648E1B_0479_4D39_B670_E4E39CC470A1 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw3C648E1B_0479_4D39_B670_E4E39CC470A1" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw3C648E1B_0479_4D39_B670_E4E39CC470A1" role="group" x-bind="details" x-data="() => accordion('rw3C648E1B_0479_4D39_B670_E4E39CC470A1', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rw3C648E1B_0479_4D39_B670_E4E39CC470A1 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rw3C648E1B_0479_4D39_B670_E4E39CC470A1" x-bind="details" x-data="() => accordion('rw3C648E1B_0479_4D39_B670_E4E39CC470A1', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>Routes into a Computer Science PhD in the UK&nbsp;</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw3C648E1B_0479_4D39_B670_E4E39CC470A1:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw3C648E1B_0479_4D39_B670_E4E39CC470A1:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw3C648E1B_0479_4D39_B670_E4E39CC470A1:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" role="region" :aria-labelledby="'accordion-header-' + 'rw3C648E1B_0479_4D39_B670_E4E39CC470A1'" class=""> 
         <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
          <p>At a high level, you have three main routes:</p> 
          <ol> 
@@ -291,18 +291,18 @@
         </article> 
        </div> 
       </div>
-      <div class="group/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw6C26B641_8B6C_41D9_A5FB_0523B91B4404" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw6C26B641_8B6C_41D9_A5FB_0523B91B4404" role="group" x-bind="details" x-data="() => accordion('rw6C26B641_8B6C_41D9_A5FB_0523B91B4404', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rw6C26B641_8B6C_41D9_A5FB_0523B91B4404" x-bind="details" x-data="() => accordion('rw6C26B641_8B6C_41D9_A5FB_0523B91B4404', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>Step‑by‑step: how to go about it&nbsp;</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw6C26B641_8B6C_41D9_A5FB_0523B91B4404:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" role="region" :aria-labelledby="'accordion-header-' + 'rw6C26B641_8B6C_41D9_A5FB_0523B91B4404'" class=""> 
         <div class="group/rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50 relative w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id="rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50"> 
          <div class="swiper" x-data="elementsContentSlider('rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50', {'loop':true,'rewind':false,'slidesPerView':1,'spaceBetween':0,'speed':400,'effect':'slide','autoplay':false})"> 
           <div class="swiper-wrapper"> 
@@ -450,18 +450,18 @@
         </div> 
        </div> 
       </div>
-      <div class="group/rw943077C8_90A5_411E_84F7_832BF598E446 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw943077C8_90A5_411E_84F7_832BF598E446" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw943077C8_90A5_411E_84F7_832BF598E446" role="group" x-bind="details" x-data="() => accordion('rw943077C8_90A5_411E_84F7_832BF598E446', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rw943077C8_90A5_411E_84F7_832BF598E446 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rw943077C8_90A5_411E_84F7_832BF598E446" x-bind="details" x-data="() => accordion('rw943077C8_90A5_411E_84F7_832BF598E446', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>Practical considerations: time, money, and life&nbsp;</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw943077C8_90A5_411E_84F7_832BF598E446:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw943077C8_90A5_411E_84F7_832BF598E446:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw943077C8_90A5_411E_84F7_832BF598E446:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" role="region" :aria-labelledby="'accordion-header-' + 'rw943077C8_90A5_411E_84F7_832BF598E446'" class=""> 
         <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
          <p>A few realities to factor in:</p> 
          <ul> 
@@ -473,18 +473,18 @@
         </article> 
        </div> 
       </div>
-      <div class="group/rwDFB8CAED_9737_4B0B_8406_6377F11AB925 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rwDFB8CAED_9737_4B0B_8406_6377F11AB925" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rwDFB8CAED_9737_4B0B_8406_6377F11AB925" role="group" x-bind="details" x-data="() => accordion('rwDFB8CAED_9737_4B0B_8406_6377F11AB925', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rwDFB8CAED_9737_4B0B_8406_6377F11AB925 transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rwDFB8CAED_9737_4B0B_8406_6377F11AB925" x-bind="details" x-data="() => accordion('rwDFB8CAED_9737_4B0B_8406_6377F11AB925', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>Part-time PhD — The 5 to 7 Year Schedule</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rwDFB8CAED_9737_4B0B_8406_6377F11AB925:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwDFB8CAED_9737_4B0B_8406_6377F11AB925:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rwDFB8CAED_9737_4B0B_8406_6377F11AB925:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" role="region" :aria-labelledby="'accordion-header-' + 'rwDFB8CAED_9737_4B0B_8406_6377F11AB925'" class=""> 
         <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
          <p>A part-time PhD has the exact same intellectual standard delivered over roughly double the calendar time. Here is how the journey typically unfolds over five to seven years:</p> 
         </article>
@@ -530,18 +530,18 @@
         </div> 
        </div> 
       </div>
-      <div class="group/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" aria-label="Accordion section rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE" aria-roledescription="accordion" data-filter-tags="" data-open="false" id="rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE" role="group" x-bind="details" x-data="() => accordion('rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
-       <div x-bind="summary" :id="'accordion-header-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" role="button" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
+      <div class="group/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE transform block w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" data-filter-tags="" data-open="false" id="rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE" x-bind="details" x-data="() => accordion('rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE', {'groupId':'rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD','openOnLoad':false})"> 
+       <div x-bind="summary" :id="'accordion-header-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" role="button" tabindex="0" :aria-expanded="open.toString()" :aria-controls="'accordion-content-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" class="flex justify-between items-center text-left font-semibold text-gray-800 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 transition-all duration-[300ms] delay-[0ms] ease-in-out pt-md pb-md pl-md pr-md hover:bg--50 aria-expanded:bg--50 bg--50"> 
         <span class="flex-1 text-left"> 
          <article class="prose prose-article w-auto h-auto" id=""> 
           <h4>A concrete action plan</h4> 
          </article> </span> 
-        <span class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 [&amp;>svg]:group-data-[open=false]/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE:text-surface-900" aria-hidden="true"> 
+        <span :data-open="open.toString()" class="[&amp;>svg]:shrink-0 [&amp;>svg]:transition-transform [&amp;>svg]:duration-300 [&amp;>svg]:size-[24px] order-last [&amp;>svg]:rotate-[90deg] [&amp;>svg]:text-surface-900 data-[open=false]:[&amp;>svg]:rotate-[180deg] [&amp;>svg]:group-data-[open=false]/rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE:text-surface-900" aria-hidden="true"> 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=""> 
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /> 
          </svg> </span> 
        </div> 
-       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" role="region" :aria-hidden="(!open).toString()" :aria-labelledby="'accordion-header-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" class=""> 
+       <div x-bind="content" x-collapse style="display: none;" :id="'accordion-content-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" role="region" :aria-labelledby="'accordion-header-' + 'rw97D764D6_5ABC_4A5C_B894_4D194F78CDDE'" class=""> 
         <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
          <p>If you’re thinking, “What should I actually do next?”, here is a simple sequence:</p> 
          <ol> 
@@ -626,6 +626,12 @@
 
             summary: {
                 ["@click"]() {
+                    this.open = !this.open;
+                },
+                ["@keydown.enter.prevent"]() {
+                    this.open = !this.open;
+                },
+                ["@keydown.space.prevent"]() {
                     this.open = !this.open;
                 },
             },
@@ -751,7 +757,7 @@
         }));
     });
 </script> 
-  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=808314456"></script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=811246013"></script> 
   <script>
     document.addEventListener("alpine:init", () => {
         Alpine.data("elementsContentSlider", (id, options) => ({
