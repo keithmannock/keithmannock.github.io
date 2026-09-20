@@ -1,26 +1,28 @@
 <!doctype html>
-<html class="scroll-smooth" lang="" dir="">
+<html class="scroll-smooth" lang="en-GB" dir="ltr">
  <head> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=811246013"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=811246013"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=811246013"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=811246013"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=811246013"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=811607791"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=811607791"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=811607791"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=811607791"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=811607791"></script> 
   <meta charset="utf-8" /> 
   <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
   <meta name="viewport" content="width=device-width" /> 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
   <link rel="canonical" href="https://keithmannock.github.io/research-advice-for-students/" /> 
   <meta name="referrer" content="same-origin" /> 
+  <meta name="description" content="Practical research advice for students planning, carrying out and writing up academic projects." /> 
   <meta name="robots" content="index, follow" /> 
   <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16" /> 
   <link rel="apple-touch-icon" type="image/png" href="../resources/apple-touch-icon-180x180.png" sizes="180x180" /> 
   <meta property="og:type" content="website" /> 
   <meta property="og:site_name" content="Keith Leonard Mannock" /> 
-  <meta property="og:title" content="Research Copy" /> 
+  <meta property="og:title" content="Research Advice for Students" /> 
+  <meta property="og:description" content="Practical guidance for planning, conducting and writing up student research." /> 
   <meta property="og:url" content="https://keithmannock.github.io/research-advice-for-students/" /> 
-  <title>Research Copy</title> 
-  <link href="index.css?rwcache=811246013" media="all" rel="stylesheet" type="text/css" /> 
+  <title>Research Advice for Students | Dr Keith L. Mannock</title> 
+  <link href="index.css?rwcache=811607791" media="all" rel="stylesheet" type="text/css" /> 
   <style lang="css">
     /* Required for alpine.js x-cloak directive to work */
     [x-cloak] {
@@ -46,7 +48,7 @@
         /* Firefox */
     }
 </style> 
-  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=811246013" /> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=811607791" /> 
   <style>
     .swiper-wrapper {
         margin: 0;
@@ -80,15 +82,15 @@
         height: auto;
     }
 </style> 
-  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=811246013" /> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=811607791" /> 
  </head> 
- <body class="bg-surface-50 dark:bg-surface-950"> 
+ <body class="bg-surface-50"> 
   <div x-data="navigationStandard('mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')" class="relative z-50"> 
-   <div style="display: none" x-bind="backdrop" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 z-50 duration-150 pointer-events-none bg-surface-900/(--mobile-backdrop-bg-opacity) dark:bg-surface-950/(--mobile-backdrop-bg-opacity) [--mobile-backdrop-bg-opacity:79%] backdrop-blur-[0px]" aria-hidden="true"></div> 
-   <div style="display: none" x-bind="menu" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0 -translate-y-full" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-full" class="fixed z-50 origin-top p-8 ring-1 ring-zinc-900/5 duration-150 overflow-y-auto bg-white-50/(--mobile-menu-bg-opacity) dark:bg-surface-900/(--mobile-menu-bg-opacity) [--mobile-menu-bg-opacity:100%] backdrop-blur-[0px] shadow rounded-tl rounded-tr rounded-bl rounded-br border-t-0 border-r-0 border-b-0 border-l-0 border-surface-900 dark:border-surface-900 top-5 right-5 bottom-auto left-5 max-h-[calc(100dvh-3rem)]" tabindex="-1"> 
+   <div style="display: none" x-bind="backdrop" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 z-50 duration-150 pointer-events-none bg-surface-900/(--mobile-backdrop-bg-opacity) [--mobile-backdrop-bg-opacity:79%] backdrop-blur-[0px]" aria-hidden="true"></div> 
+   <div style="display: none" x-bind="menu" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0 -translate-y-full" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-full" class="fixed z-50 origin-top p-8 ring-1 ring-zinc-900/5 duration-150 overflow-y-auto bg-white-50/(--mobile-menu-bg-opacity) [--mobile-menu-bg-opacity:100%] backdrop-blur-[0px] shadow rounded-tl rounded-tr rounded-bl rounded-br border-t-0 border-r-0 border-b-0 border-l-0 border-surface-900 top-5 right-5 bottom-auto left-5 max-h-[calc(100dvh-3rem)]" tabindex="-1"> 
     <div class="flex items-center justify-between"> 
-     <button aria-label="Close menu" type="button" @click="open = false" class="transition-all duration-[300ms] delay-[0ms] ease-in-out absolute inline-flex items-center justify-center rounded-md p-2.5 cursor-pointer text-text-50 dark:text-text-600 hover:text-brand-500 dark:hover:text-brand-600 top-8 right-8"> 
-      <svg viewbox="0 0 24 24" aria-hidden="true" class="size-6 transition-colors duration-300 text-text-50 dark:text-text-600 hover:text-brand-600 dark:hover:text-brand-600"> 
+     <button aria-label="Close menu" type="button" @click="open = false" class="transition-all duration-[300ms] delay-[0ms] ease-in-out absolute inline-flex items-center justify-center rounded-md p-2.5 cursor-pointer text-text-50 hover:text-brand-500 top-8 right-8"> 
+      <svg viewbox="0 0 24 24" aria-hidden="true" class="size-6 transition-colors duration-300 text-text-50 hover:text-brand-600"> 
        <path d="m17.25 6.75-10.5 10.5M6.75 6.75l10.5 10.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> 
       </svg> </button> 
      <div class="w-10 h-auto block mt-0 mb-4 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id="" rwresourcedropzone="svg"> 
@@ -100,27 +102,27 @@
     <nav> 
      <ul class=""> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
-       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
         <a class="flex justify-between items-center" href="../">Home</a> 
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
-       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
         <a class="flex justify-between items-center" href="../courses/">Teaching</a> 
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
-       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
         <a class="flex justify-between items-center" href="../research/">Research</a> 
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
-       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open" aria-current="page"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open" aria-current="page"> 
         <a class="flex justify-between items-center" href="../research-advice-for-students/" aria-current="page">Research Advice for Students</a> 
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
-       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
         <a class="flex justify-between items-center" href="../students/">Project Students</a> 
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
-       <div class="block my-2 text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
+       <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
         <a class="flex justify-between items-center" href="../about/">About me</a> 
        </div> </li> 
      </ul> 
@@ -128,9 +130,9 @@
     <button class="group/button group/rw294BF1F3_CFE1_4507_AB29_6F567ED1FCD9 flex items-center cursor-pointer flex w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-2 pb-2 pl-5 pr-5 transition-all duration-[300ms] delay-[0ms] ease-in-out bg-accent-600/(--bgColorOpacity) [--bgColorOpacity:100%] hover:bg-accent-700/(--bgColorOpacityEnd) hover:[--bgColorOpacityEnd:100%] border-t-0 border-r-0 border-b-0 border-l-0 border-solid rounded-tl rounded-tr rounded-bl rounded-br border-brand-600/[100%] justify-center text-center text-surface-50/(--buttonFontAndTextStylesColorOpacity) [--buttonFontAndTextStylesColorOpacity:100%] font-body text-base text-shadow-none font-[600] leading-normal tracking-normal normal-case hover:text-surface-50/(--buttonFontAndTextStylesColorOpacityHover) hover:[--buttonFontAndTextStylesColorOpacityHover:100%] hover:text-shadow-none" id=""> Get started </button> 
    </div> 
   </div> 
-  <div class="rwBBBE04F2_74C9_496A_8110_7A59A814DB76 group/container group/rwBBBE04F2_74C9_496A_8110_7A59A814DB76 grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-10 mr-10" data-filter-tags="" id=""> 
-   <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-md pt-0 pb-0 pl-10 pr-10">
-    <header class="group/rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2 group/navbar items-center sticky z-[31] top-0 right-md bottom-md left-md isolate flex w-full h-auto mt-0 mb-0 ml-auto mr-auto bg-white-100/(--bgColorOpacity) dark:bg-surface-950/(--bgColorOpacity) [--bgColorOpacity:90%] brightness-[100%] drop-shadow-none saturate-[100%] backdrop-blur-[6px] shadow-sm shadow--500/(--box-shadow-opacity) [--box-shadow-opacity:100%] opacity-[100%]" id=""> 
+  <div class="rwBBBE04F2_74C9_496A_8110_7A59A814DB76 group/container group/rwBBBE04F2_74C9_496A_8110_7A59A814DB76 grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-0 mr-0" data-filter-tags="" id=""> 
+   <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-md pt-0 pb-0 pl-4 pr-4 sm:pt-0 sm:pb-0 sm:pl-6 sm:pr-6 lg:pt-0 lg:pb-0 lg:pl-10 lg:pr-10">
+    <header class="group/rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2 group/navbar items-center sticky z-[31] top-0 right-md bottom-md left-md isolate flex w-full h-auto mt-0 mb-0 ml-auto mr-auto bg-white-100/(--bgColorOpacity) [--bgColorOpacity:90%] brightness-[100%] drop-shadow-none saturate-[100%] backdrop-blur-[6px] shadow-sm shadow--500/(--box-shadow-opacity) [--box-shadow-opacity:100%] opacity-[100%]" id=""> 
      <nav class="mx-auto flex items-center justify-between container w-full h-auto pt-6 pb-6 pl-5 pr-5"> 
       <!-- Logo --> 
       <div class="flex lg:flex-1 pt-0 pb-0 pl-0 pr-0"> 
@@ -152,7 +154,7 @@
       </div> 
       <!-- Mobile menu button --> 
       <div class="flex lg:hidden"> 
-       <button x-data type="button" class="cursor-pointer text-text-50 dark:text-text-600 hover:text-brand-500 dark:hover:text-brand-600" @click="$dispatch('navigation-standard-toggle', 'mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')"> <span class="sr-only">Open main menu</span> 
+       <button x-data type="button" class="cursor-pointer text-text-50 hover:text-brand-500" @click="$dispatch('navigation-standard-toggle', 'mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')"> <span class="sr-only">Open main menu</span> 
         <svg class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"> 
          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /> 
         </svg> </button> 
@@ -160,22 +162,22 @@
       <!-- Desktop items --> 
       <div class="hidden lg:flex gap-6"> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Home </a> 
+        <a href="../" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Home </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../courses/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Teaching </a> 
+        <a href="../courses/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Teaching </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../research/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Research </a> 
+        <a href="../research/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Research </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../research-advice-for-students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out" aria-current="page"> Research Advice for Students </a> 
+        <a href="../research-advice-for-students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out" aria-current="page"> Research Advice for Students </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Project Students </a> 
+        <a href="../students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Project Students </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../about/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) dark:text-text-800/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> About me </a> 
+        <a href="../about/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> About me </a> 
        </div> 
       </div> 
       <!-- Desktop right items --> 
@@ -183,16 +185,15 @@
       </div> 
      </nav> 
     </header>
+    <h1 class="[&amp;_a]:text-brand-500 [&amp;_a]:no-underline [&amp;_a]:font-[400] [&amp;_a:hover]:text-brand-800 [&amp;_a:hover]:no-underline [&amp;_a:hover]:font-[400] [&amp;_a:visited]:text-brand-800 [&amp;_a:visited]:no-underline [&amp;_a:visited]:font-[400] block w-auto h-auto mt-6 mb-4 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0 text-text-50/(--textColorOpacity) [--textColorOpacity:100%] font-heading text-4xl md:text-5xl font-[400] tracking-normal leading-normal not-italic text-shadow-none normal-case whitespace-none text-left" id=""> Research Advice for Students </h1>
     <div class="transform-gpu block w-[100%] h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id="" rwresourcedropzone="image"> 
      <picture class="block"> 
       <!-- Fallback img element --> 
-      <img class="max-w-[100%] w-full object-center aspect-[1.8333333730697632]" src="../resources/gainsborough.png" alt="" width="1408" height="768" decoding="async" /> 
+      <img class="max-w-[100%] w-full object-center aspect-[1.8333333730697632]" src="../resources/gainsborough.png" alt="" width="1408" height="768" fetchpriority="high" decoding="async" /> 
      </picture> 
     </div>
-    <article class="prose prose-article w-auto h-auto mt-5 mb-5 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
-     <h4>Research Advice</h4>
-     <p>Some notes on pursuing a research path in Computer Science (in the UK)</p> 
-    </article>
+    <h2 class="[&amp;_a]:text-brand-500 [&amp;_a]:no-underline [&amp;_a]:font-[400] [&amp;_a:hover]:text-brand-800 [&amp;_a:hover]:no-underline [&amp;_a:hover]:font-[400] [&amp;_a:visited]:text-brand-800 [&amp;_a:visited]:no-underline [&amp;_a:visited]:font-[400] block w-auto h-auto mt-6 mb-3 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0 text-text-50/(--textColorOpacity) [--textColorOpacity:100%] font-heading text-2xl md:text-3xl font-[400] tracking-normal leading-normal not-italic text-shadow-none normal-case whitespace-none text-left" id=""> Doctoral research guidance </h2>
+    <h3 class="[&amp;_a]:text-brand-500 [&amp;_a]:no-underline [&amp;_a]:font-[400] [&amp;_a:hover]:text-brand-800 [&amp;_a:hover]:no-underline [&amp;_a:hover]:font-[400] [&amp;_a:visited]:text-brand-800 [&amp;_a:visited]:no-underline [&amp;_a:visited]:font-[400] block w-auto h-auto mt-4 mb-2 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0 text-text-50/(--textColorOpacity) [--textColorOpacity:100%] font-heading text-xl md:text-2xl font-[400] tracking-normal leading-normal not-italic text-shadow-none normal-case whitespace-none text-left" id=""> Understanding and applying for a PhD </h3>
     <div class="rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD group/container group/rw5319F2A6_BEC8_4C26_8668_3D3F1B8A55AD grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-auto mr-auto" data-filter-tags="" id=""> 
      <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-md pt-0 pb-0 pl-0 pr-0">
       <article class="prose prose-article w-auto h-auto" id=""> 
@@ -560,7 +561,7 @@
      </div> 
     </div>
     <footer class="rwD7F581C7_97FD_4A9F_B101_071436B3701E group/container group/rwD7F581C7_97FD_4A9F_B101_071436B3701E grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 isolate grid w-full h-auto mt-0 mb-0 ml-auto mr-auto" data-filter-tags="" id=""> 
-     <div class="relative z-30 flex flex-col peer w-screen h-auto self-center justify-self-center gap-5 pt-10 pb-10 pl-5 pr-5">
+     <div class="relative z-30 flex flex-col peer w-screen h-auto self-center justify-self-center gap-5 pt-8 pb-8 pl-0 pr-0">
       <div class="rw55D94BE8_55CC_4667_AF55_7168539E4ADD group/container group/rw55D94BE8_55CC_4667_AF55_7168539E4ADD grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-auto mr-auto" data-filter-tags="" id=""> 
        <div class="relative z-30 flex flex-col peer container w-full h-auto self-center justify-self-center gap-3 pt-0 pb-0 pl-0 pr-0">
         <div class="group/rwEA174DC9_8F96_4EBA_A0BA_33725A3D8F18 group/flex transform flex w-full h-auto gap-x-auto gap-y-5 flex-col flex-nowrap items-[normal] justify-items-normal content-normal justify-normal" data-filter-tags="" id=""> 
@@ -575,7 +576,7 @@
          <div class="w-48 h-0.5 mt-0 mb-0 ml-auto mr-auto pt-0 pb-0 pl-0 pr-0 bg-brand-500/(--bgColorOpacity) [--bgColorOpacity:100%]" aria-orientation="horizontal" id="" role="separator">
            &nbsp; 
          </div>
-         <span class="[&amp;_a]:text-brand-500 [&amp;_a]:no-underline [&amp;_a]:font-[400] [&amp;_a:hover]:text-brand-800 [&amp;_a:hover]:no-underline [&amp;_a:hover]:font-[400] [&amp;_a:visited]:text-brand-800 [&amp;_a:visited]:no-underline [&amp;_a:visited]:font-[400] block w-auto h-auto text-text-700/(--textColorOpacity) dark:text-text-500/(--textColorOpacity) [--textColorOpacity:100%] font-heading text-base font-[400] tracking-normal leading-none not-italic text-shadow-none normal-case whitespace-none text-center" id=""> © 1986-2026 KEITH LEONARD MANNOCK All rights reserved. </span> 
+         <span class="[&amp;_a]:text-brand-500 [&amp;_a]:no-underline [&amp;_a]:font-[400] [&amp;_a:hover]:text-brand-800 [&amp;_a:hover]:no-underline [&amp;_a:hover]:font-[400] [&amp;_a:visited]:text-brand-800 [&amp;_a:visited]:no-underline [&amp;_a:visited]:font-[400] block w-auto h-auto text-text-700/(--textColorOpacity) [--textColorOpacity:100%] font-heading text-base font-[400] tracking-normal leading-none not-italic text-shadow-none normal-case whitespace-none text-center" id=""> © 1986-2026 KEITH LEONARD MANNOCK All rights reserved. </span> 
         </div>
        </div> 
        <div class="z-0 transform-gpu overflow-hidden"> 
@@ -757,7 +758,7 @@
         }));
     });
 </script> 
-  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=811246013"></script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=811607791"></script> 
   <script>
     document.addEventListener("alpine:init", () => {
         Alpine.data("elementsContentSlider", (id, options) => ({
