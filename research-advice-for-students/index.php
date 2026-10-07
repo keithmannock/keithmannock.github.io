@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="scroll-smooth" lang="en-GB" dir="ltr">
  <head> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=811607791"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=811607791"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=811607791"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=811607791"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=811607791"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=813103208"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=813103208"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=813103208"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=813103208"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=813103208"></script> 
   <meta charset="utf-8" /> 
   <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
   <meta name="viewport" content="width=device-width" /> 
@@ -22,7 +22,7 @@
   <meta property="og:description" content="Practical guidance for planning, conducting and writing up student research." /> 
   <meta property="og:url" content="https://keithmannock.github.io/research-advice-for-students/" /> 
   <title>Research Advice for Students | Dr Keith L. Mannock</title> 
-  <link href="index.css?rwcache=811607791" media="all" rel="stylesheet" type="text/css" /> 
+  <link href="index.css?rwcache=813103208" media="all" rel="stylesheet" type="text/css" /> 
   <style lang="css">
     /* Required for alpine.js x-cloak directive to work */
     [x-cloak] {
@@ -48,7 +48,7 @@
         /* Firefox */
     }
 </style> 
-  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=811607791" /> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=813103208" /> 
   <style>
     .swiper-wrapper {
         margin: 0;
@@ -82,7 +82,7 @@
         height: auto;
     }
 </style> 
-  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=811607791" /> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=813103208" /> 
  </head> 
  <body class="bg-surface-50"> 
   <div x-data="navigationStandard('mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')" class="relative z-50"> 
@@ -127,7 +127,6 @@
        </div> </li> 
      </ul> 
     </nav> 
-    <button class="group/button group/rw294BF1F3_CFE1_4507_AB29_6F567ED1FCD9 flex items-center cursor-pointer flex w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-2 pb-2 pl-5 pr-5 transition-all duration-[300ms] delay-[0ms] ease-in-out bg-accent-600/(--bgColorOpacity) [--bgColorOpacity:100%] hover:bg-accent-700/(--bgColorOpacityEnd) hover:[--bgColorOpacityEnd:100%] border-t-0 border-r-0 border-b-0 border-l-0 border-solid rounded-tl rounded-tr rounded-bl rounded-br border-brand-600/[100%] justify-center text-center text-surface-50/(--buttonFontAndTextStylesColorOpacity) [--buttonFontAndTextStylesColorOpacity:100%] font-body text-base text-shadow-none font-[600] leading-normal tracking-normal normal-case hover:text-surface-50/(--buttonFontAndTextStylesColorOpacityHover) hover:[--buttonFontAndTextStylesColorOpacityHover:100%] hover:text-shadow-none" id=""> Get started </button> 
    </div> 
   </div> 
   <div class="rwBBBE04F2_74C9_496A_8110_7A59A814DB76 group/container group/rwBBBE04F2_74C9_496A_8110_7A59A814DB76 grid-cols-1 [&amp;>*]:col-start-1 [&amp;>*]:row-start-1 [&amp;>*]:min-w-0 grid w-full h-auto mt-0 mb-0 ml-0 mr-0" data-filter-tags="" id=""> 
@@ -307,11 +306,11 @@
         <div class="group/rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50 relative w-auto h-auto mt-5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id="rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50"> 
          <div class="swiper" x-data="elementsContentSlider('rw2C1C5CC9_D02B_47E6_BF06_BB2B893F4F50', {'loop':true,'rewind':false,'slidesPerView':1,'spaceBetween':0,'speed':400,'effect':'slide','autoplay':false})"> 
           <div class="swiper-wrapper"> 
-           <div class="swiper-slide min-h-[100px]"> 
+           <div class="swiper-slide min-h-[100px] "> 
             <article class="prose prose-article w-auto h-auto mt-2.5 mb-0 ml-0 mr-0 pt-0 pb-0 pl-0 pr-0" id=""> 
              <p>Here’s a concrete path for computer science in the UK.</p> 
              <br /> 
-             <h5>Clarify your research interests&nbsp;</h5> 
+             <h5>Clarify your research interests </h5> 
              <br /> 
              <p>You don’t need a fully formed topic, but you should narrow down to a research area or a small cluster of them, for example:</p> 
              <ul> 
@@ -333,9 +332,9 @@
              <p>This will be invaluable when you start talking to potential supervisors.</p> 
             </article> 
            </div> 
-           <div class="swiper-slide min-h-[100px]"> 
+           <div class="swiper-slide min-h-[100px] "> 
             <article class="prose prose-article w-auto h-auto" id=""> 
-             <h5>Identify potential universities and supervisors&nbsp;</h5> 
+             <h5>Identify potential universities and supervisors </h5> 
              <br /> 
              <p>In the UK, who supervises you often matters more than the exact institution’s “brand” for the quality of your PhD experience.</p> 
              <p>Look for:</p> 
@@ -351,7 +350,7 @@
              </ol> 
              <p>You want someone whose current work overlaps with what you’d like to do, not just a vague match to “AI” or “security”.</p> 
              <ol start="3"> 
-              <li>Decide on funding route(s)&nbsp;</li> 
+              <li>Decide on funding route(s) </li> 
              </ol> 
              <p>In the UK, common funding sources for computer science PhDs include:</p> 
              <ul> 
@@ -363,11 +362,11 @@
              <p>Each studentship has its own eligibility and deadlines. Many are competitive and have specific topics attached (“PhD in ML for healthcare data”, “PhD in secure distributed systems”, etc.).</p> 
             </article> 
            </div> 
-           <div class="swiper-slide min-h-[100px]"> 
+           <div class="swiper-slide min-h-[100px] "> 
             <article class="prose prose-article w-auto h-auto" id=""> 
-             <h5>The application process in detail&nbsp;</h5> 
+             <h5>The application process in detail </h5> 
              <br /> 
-             <p>The typical sequence involves informal contact with potential supervisors&nbsp;</p> 
+             <p>The typical sequence involves informal contact with potential supervisors </p> 
              <p>Before submitting formal applications, it is common and often helpful to email potential supervisors.</p> 
              <p>A good email is:</p> 
              <ul> 
@@ -386,9 +385,9 @@
              <p>The best‑case outcome: a meeting where you discuss possible topics and funding options, and they agree to support your PhD application.</p> 
             </article> 
            </div> 
-           <div class="swiper-slide min-h-[100px]"> 
+           <div class="swiper-slide min-h-[100px] "> 
             <article class="prose prose-article w-auto h-auto" id=""> 
-             <h5>Prepare a research proposal (if required)&nbsp;</h5> 
+             <h5>Prepare a research proposal (if required) </h5> 
              <br /> 
              <p>Some programmes (especially direct PhD routes) ask for a research proposal, often 1,000–2,000 words. Even when not formally required, it’s good to draft one.</p> 
              <p>Typical components:</p> 
@@ -403,9 +402,9 @@
              <p>This doesn’t lock you in forever; PhD topics evolve. But a coherent proposal demonstrates that you understand what research involves.</p> 
             </article> 
            </div> 
-           <div class="swiper-slide min-h-[100px]"> 
+           <div class="swiper-slide min-h-[100px] "> 
             <article class="prose prose-article w-auto h-auto" id=""> 
-             <h5>Assemble your application materials&nbsp;</h5> 
+             <h5>Assemble your application materials </h5> 
              <br /> 
              <p>Most UK CS PhD applications will need:</p> 
              <ul> 
@@ -423,9 +422,9 @@
              </ul> 
             </article> 
            </div> 
-           <div class="swiper-slide min-h-[100px]"> 
+           <div class="swiper-slide min-h-[100px] "> 
             <article class="prose prose-article w-auto h-auto" id=""> 
-             <h5>Submit applications and attend interviews&nbsp;</h5> 
+             <h5>Submit applications and attend interviews </h5> 
              <br /> 
              <p>After you submit, the typical next steps are:</p> 
              <ul> 
@@ -758,7 +757,7 @@
         }));
     });
 </script> 
-  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=811607791"></script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=813103208"></script> 
   <script>
     document.addEventListener("alpine:init", () => {
         Alpine.data("elementsContentSlider", (id, options) => ({
@@ -786,6 +785,19 @@
                     speed: config.speed || 400,
                     effect: config.effect || 'slide',
                 };
+
+                if (config.freeMode) {
+                    swiperConfig.freeMode = config.freeMode;
+                }
+                if (config.breakpoints) {
+                    swiperConfig.breakpoints = config.breakpoints;
+                }
+                if (config.grabCursor) {
+                    swiperConfig.grabCursor = true;
+                }
+                if (config.watchOverflow) {
+                    swiperConfig.watchOverflow = true;
+                }
 
                 // Add fade-specific options for smooth crossfade
                 if (config.effect === 'fade') {
