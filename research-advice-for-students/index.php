@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="scroll-smooth" lang="en-GB" dir="ltr">
  <head> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=813103208"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=813103208"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=813103208"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=813103208"></script> 
-  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=813103208"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-collapse.js?rwcache=813147184"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-intersect.js?rwcache=813147184"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-transitions.js?rwcache=813147184"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine-store-filters.js?rwcache=813147184"></script> 
+  <script defer src="../rw/elements/com.realmac.corepack/alpine.js?rwcache=813147184"></script> 
   <meta charset="utf-8" /> 
   <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
   <meta name="viewport" content="width=device-width" /> 
@@ -22,7 +22,7 @@
   <meta property="og:description" content="Practical guidance for planning, conducting and writing up student research." /> 
   <meta property="og:url" content="https://keithmannock.github.io/research-advice-for-students/" /> 
   <title>Research Advice for Students | Dr Keith L. Mannock</title> 
-  <link href="index.css?rwcache=813103208" media="all" rel="stylesheet" type="text/css" /> 
+  <link href="index.css?rwcache=813147184" media="all" rel="stylesheet" type="text/css" /> 
   <style lang="css">
     /* Required for alpine.js x-cloak directive to work */
     [x-cloak] {
@@ -48,7 +48,7 @@
         /* Firefox */
     }
 </style> 
-  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=813103208" /> 
+  <link rel="stylesheet" href="files/com.realmacsoftware.contentSlider/swiper-bundle.min.css?rwcache=813147184" /> 
   <style>
     .swiper-wrapper {
         margin: 0;
@@ -82,7 +82,7 @@
         height: auto;
     }
 </style> 
-  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=813103208" /> 
+  <link rel="stylesheet" type="text/css" media="all" href="../rw/styles/consolidated.css?rwcache=813147184" /> 
  </head> 
  <body class="bg-surface-50"> 
   <div x-data="navigationStandard('mobile-menu-rw43B2A588_EF1D_418E_90B0_6BCD87CDC6C2')" class="relative z-50"> 
@@ -115,7 +115,7 @@
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
        <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open" aria-current="page"> 
-        <a class="flex justify-between items-center" href="../research-advice-for-students/" aria-current="page">Research Advice for Students</a> 
+        <a class="flex justify-between items-center" href="../research-advice-for-students/" aria-current="page">Research advice</a> 
        </div> </li> 
       <li x-data="{ open: false }" class="cursor-pointer"> 
        <div class="block my-2 text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out flex items-center justify-between" @click="open = !open"> 
@@ -170,7 +170,7 @@
         <a href="../research/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Research </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
-        <a href="../research-advice-for-students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out" aria-current="page"> Research Advice for Students </a> 
+        <a href="../research-advice-for-students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out" aria-current="page"> Research advice </a> 
        </div> 
        <div x-data="desktopSubmenu" class="relative"> 
         <a href="../students/" @mouseover="handleMouseEnter" @mouseleave="handleMouseLeave" class="flex items-center text-text-500/(--nav-item-text-opacity) [--nav-item-text-opacity:100%] font-body text-lg text-shadow-none font-[400] tracking-normal hover:text-brand-600/(--nav-item-text-opacity) aria-[current=page]:text-brand-600/(--nav-item-text-opacity) data-[active-child]:text-brand-600/(--nav-item-text-opacity) hover:[--nav-item-text-opacity:100%] aria-[current=page]:[--nav-item-text-opacity:100%] data-[active-child]:[--nav-item-text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none data-[active-child]:text-shadow-none hover: aria-[current=page]: data-[active-child]: pt-0 pb-0 pl-0 pr-0 rounded-tl-none rounded-tr-none rounded-bl-none rounded-br-none transition-all duration-[300ms] delay-[0ms] ease-in-out"> Project Students </a> 
@@ -491,14 +491,6 @@
         <div class="block w-auto h-auto" id="rwAF08751A_A5B6_43FA_B297_AE2A115F8B15"> 
          <div x-data="elementsTable('rwAF08751A_A5B6_43FA_B297_AE2A115F8B15', {'search':false,'pagination':false,'rowsPerPage':10,'totalRows':4,'sortable':false})" data-page-text="Page {{page}} of {{total}}"> 
           <table class="min-w-full w-full border-collapse"> 
-           <thead> 
-            <tr class="bg-surface-400"> 
-             <th class="pt-2 pb-2 pl-2 pr-2 align-top border-solid border-t border-r border-b border-l border-surface-200 font-heading text-text-50 text-base font-[600] tracking-normal  text-left  "> Column </th> 
-             <th class="pt-2 pb-2 pl-2 pr-2 align-top border-solid border-t border-r border-b border-l border-surface-200 font-heading text-text-50 text-base font-[600] tracking-normal  text-left  "> Column </th> 
-             <th class="pt-2 pb-2 pl-2 pr-2 align-top border-solid border-t border-r border-b border-l border-surface-200 font-heading text-text-50 text-base font-[600] tracking-normal  text-left  "> Column </th> 
-             <th class="pt-2 pb-2 pl-2 pr-2 align-top border-solid border-t border-r border-b border-l border-surface-200 font-heading text-text-50 text-base font-[600] tracking-normal  text-left  "> Column </th> 
-            </tr> 
-           </thead> 
            <tbody class=""> 
             <tr class="odd:bg-surface-50 even:bg-surface-100" x-ref="row0" x-show="isRowVisible($el)"> 
              <td class="pt-2 pb-2 pl-2 pr-2 align-top border-solid border-t border-r border-b border-l border-surface-200 font-body text-text-50 text-base font-[400] tracking-normal  text-left  "> Foundation </td> 
@@ -568,7 +560,7 @@
           <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../"> <span class="">Home</span> </a> 
           <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../courses/"> <span class="">Teaching</span> </a> 
           <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../research/"> <span class="">Research</span> </a> 
-          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../research-advice-for-students/" aria-current="page"> <span class="">Research Advice for Students</span> </a> 
+          <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../research-advice-for-students/" aria-current="page"> <span class="">Research advice</span> </a> 
           <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../students/"> <span class="">Project Students</span> </a> 
           <a class="flex items-center transition-all duration-[300ms] delay-[0ms] ease-in-out font-body text-base font-[400] tracking-normal normal hover text-text-500/(--text-opacity) [--text-opacity:100%] text-shadow-none none hover:text-text-300/(--text-opacity) aria-[current=page]:text-text-300/(--text-opacity) hover:[--text-opacity:100%] aria-[current=page]:[--text-opacity:100%] hover:text-shadow-none aria-[current=page]:text-shadow-none hover:none aria-[current=page]:none" href="../about/"> <span class="">About me</span> </a> 
          </nav>
@@ -588,6 +580,14 @@
    </div> 
    <div class="z-0 transform-gpu bg-surface-50/(--bgColorOpacity) [--bgColorOpacity:100%] overflow-hidden"> 
    </div> 
+  </div>
+  <!-- Copyright ©Multithemes Back To Top FREE B4 Elements V3 TW4 --> 
+  <div x-data="{ DisplayIcon: false }" x-init="window.addEventListener('scroll', () => { DisplayIcon = window.scrollY > 300; })" class="fixed right-6 bottom-6 z-50 "> 
+   <button x-show="DisplayIcon" x-cloak x-transition:enter="transform transition ease-out duration-300" x-transition:enter-start="translate-y-20 opacity-0" x-transition:enter-end="translate-y-0 translate-x-0 opacity-100" x-transition:leave="transform transition ease-in duration-300" x-transition:leave-start="translate-y-0 translate-x-0 opacity-100" x-transition:leave-end="translate-y-20 opacity-0" @click="window.scrollTo({ top: 0, behavior: 'smooth' })" class="  bg-surface-700/(--bg-opacity) [--bg-opacity:100%] hover:bg-surface-800/(--bg-opacity) hover:[--bg-opacity:100%] rounded-3xl text-white" title="Back to top button"> 
+    <!-- icon --> 
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 29" stroke="currentColor" class="w-10 h-10"> 
+     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.084,11.335L12,8.04L12,21.423L12,8.04L16.916,11.335" /> 
+    </svg> </button> 
   </div> 
   <!-- <footer class="site-footer">
         <p>
@@ -757,7 +757,7 @@
         }));
     });
 </script> 
-  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=813103208"></script> 
+  <script src="files/com.realmacsoftware.contentSlider/swiper-bundle.min.js?rwcache=813147184"></script> 
   <script>
     document.addEventListener("alpine:init", () => {
         Alpine.data("elementsContentSlider", (id, options) => ({
